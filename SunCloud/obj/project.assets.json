@@ -1,0 +1,138 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "CustomControlLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CustomControlLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomControlLib.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "StylesLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/StylesLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StylesLib.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "WeatherLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/WeatherLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WeatherLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CustomControlLib/1.0.0": {
+      "type": "project",
+      "path": "../CustomControlLib/CustomControlLib.csproj",
+      "msbuildProject": "../CustomControlLib/CustomControlLib.csproj"
+    },
+    "StylesLib/1.0.0": {
+      "type": "project",
+      "path": "../StylesLib/StylesLib.csproj",
+      "msbuildProject": "../StylesLib/StylesLib.csproj"
+    },
+    "WeatherLib/1.0.0": {
+      "type": "project",
+      "path": "../WeatherLib/WeatherLib.csproj",
+      "msbuildProject": "../WeatherLib/WeatherLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "CustomControlLib >= 1.0.0",
+      "StylesLib >= 1.0.0",
+      "WeatherLib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\LinQuid\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\LinQuid\\Desktop\\Project\\SunCloud\\SunCloud.csproj",
+      "projectName": "SunCloud",
+      "projectPath": "C:\\Users\\LinQuid\\Desktop\\Project\\SunCloud\\SunCloud.csproj",
+      "packagesPath": "C:\\Users\\LinQuid\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LinQuid\\Desktop\\Project\\SunCloud\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\LinQuid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\LinQuid\\Desktop\\Project\\CustomControlLib\\CustomControlLib.csproj": {
+              "projectPath": "C:\\Users\\LinQuid\\Desktop\\Project\\CustomControlLib\\CustomControlLib.csproj"
+            },
+            "C:\\Users\\LinQuid\\Desktop\\Project\\StylesLib\\StylesLib.csproj": {
+              "projectPath": "C:\\Users\\LinQuid\\Desktop\\Project\\StylesLib\\StylesLib.csproj"
+            },
+            "C:\\Users\\LinQuid\\Desktop\\Project\\WeatherLib\\WeatherLib.csproj": {
+              "projectPath": "C:\\Users\\LinQuid\\Desktop\\Project\\WeatherLib\\WeatherLib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CustomControlLib\\bin",
+    "\\CustomControlLib\\bin\\Debug",
+    "\\CustomControlLib\\bin\\Debug\\net6.0-windows",
+    "\\SunCloud",
+    "\\SunCloud\\ViewModel"
+  ],
+  "SelectedNode": "\\SunCloud\\ViewModel\\PrimaryViewModel.cs",
+  "PreviewInSolutionExplorer": false
+}

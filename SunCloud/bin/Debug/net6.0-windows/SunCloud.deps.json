@@ -1,0 +1,58 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SunCloud/1.0.0": {
+        "dependencies": {
+          "CustomControlLib": "1.0.0",
+          "StylesLib": "1.0.0",
+          "WeatherLib": "1.0.0"
+        },
+        "runtime": {
+          "SunCloud.dll": {}
+        }
+      },
+      "CustomControlLib/1.0.0": {
+        "runtime": {
+          "CustomControlLib.dll": {}
+        }
+      },
+      "StylesLib/1.0.0": {
+        "runtime": {
+          "StylesLib.dll": {}
+        }
+      },
+      "WeatherLib/1.0.0": {
+        "runtime": {
+          "WeatherLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SunCloud/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CustomControlLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StylesLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WeatherLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
