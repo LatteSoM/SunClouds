@@ -27,6 +27,9 @@
                 </Rectangle.BitmapEffect>
             </Rectangle>
 
+
+
+
             <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Right" Margin="0 5 5 0">
                 <Button MinHeight="15px" MaxHeight="20px" MinWidth="20px" MaxWidth="20px" Style="{DynamicResource MinimizeWindowBtn}" x:Name="MinimizeWindowBtn" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch">
                     <Image Source="/view/resources/images/MinimizeBtn.png" MouseLeftButtonDown="MinimizeWindow"/>
@@ -73,4 +76,5 @@
             </Grid>
         </Grid>
     </Border>
+
 </Window>

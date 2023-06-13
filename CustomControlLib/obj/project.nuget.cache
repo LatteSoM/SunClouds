@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9XB+WpEiZ+Umfvb8HRx3CNj4Vi8tSEjzKEzD/hwG55E8opMKqcoNL22kh00M4n6B2aQDCZgnAGIk4kdf4/AwqQ==",
+  "dgSpecHash": "fyC20qOzo1kf9osQsKO60KMySYfHOJbtUO9KWBaslUkee52r/5PQNsAF28F7ZxbnPMFLyOp0Tjv0yfpRyDmcuA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
+  "projectFilePath": "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\CustomControlLib\\CustomControlLib.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Ошибка чтения файла кэша C:\\Users\\KritZ\\source\\repos\\SunClouds\\CustomControlLib\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

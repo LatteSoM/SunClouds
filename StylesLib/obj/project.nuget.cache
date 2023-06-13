@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eGPgH+UyLutyg0Z+W7ktkRuLXlC5XHMlfcSUIJQn6N32uOIX7r0/mxlXA9Dsjxt0iaBdWzN07bUM4T//TUherw==",
+  "dgSpecHash": "FfonxDQi9R4hZ9jls60GQisXvTU4JqERv3JhV9Tk/2WkBA3FuhGhmIBLiaqavTvbFEvfpaSwoXXG4e8yS8393Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj",
+  "projectFilePath": "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\StylesLib\\StylesLib.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Ошибка чтения файла кэша C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

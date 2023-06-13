@@ -58,7 +58,7 @@
         <Button Template="{DynamicResource WeatherSettingsBtnControlTemplate}" x:Name="WeatherPageBtn" Content="Погода" Style="{DynamicResource ChangePageBtn}"  HorizontalContentAlignment="Left" Grid.Row="1" Grid.Column="1" >
             <!--<Label Style="{DynamicResource ChangePageBtnLabel}" Content="Погода" HorizontalAlignment="Left" />-->
         </Button>
-        
+
         <Button Template="{DynamicResource WeatherSettingsBtnControlTemplate}" x:Name="SettingsPageBtn" Content="Настройки" Style="{DynamicResource ChangePageBtn}" HorizontalContentAlignment="Right" Grid.Row="1" Grid.Column="2">
             <!--<Label Style="{DynamicResource ChangePageBtnLabel}" Content="Настройки" HorizontalAlignment="Right" />-->
         </Button>

@@ -15,25 +15,6 @@ C:\Users\LinQuid\source\repos\CustomControlLib\obj\Debug\net6.0-windows\CustomCo
 C:\Users\LinQuid\source\repos\CustomControlLib\obj\Debug\net6.0-windows\refint\CustomControlLib.dll
 C:\Users\LinQuid\source\repos\CustomControlLib\obj\Debug\net6.0-windows\CustomControlLib.pdb
 C:\Users\LinQuid\source\repos\CustomControlLib\obj\Debug\net6.0-windows\ref\CustomControlLib.dll
-<<<<<<< HEAD
-C:\Users\KritZ\Source\Repos\SunClouds\CustomControlLib\bin\Debug\net6.0-windows\CustomControlLib.deps.json
-C:\Users\KritZ\Source\Repos\SunClouds\CustomControlLib\bin\Debug\net6.0-windows\CustomControlLib.dll
-C:\Users\KritZ\Source\Repos\SunClouds\CustomControlLib\bin\Debug\net6.0-windows\CustomControlLib.pdb
-C:\Users\KritZ\Source\Repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\CustomControlLib.csproj.AssemblyReference.cache
-C:\Users\KritZ\Source\Repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\UserControl1.g.cs
-C:\Users\KritZ\Source\Repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\CustomControlLib_MarkupCompile.cache
-C:\Users\KritZ\Source\Repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\CustomControlLib_MarkupCompile.lref
-C:\Users\KritZ\Source\Repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\UserControl1.baml
-C:\Users\KritZ\Source\Repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\CustomControlLib.g.resources
-C:\Users\KritZ\Source\Repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\CustomControlLib.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\KritZ\Source\Repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\CustomControlLib.AssemblyInfoInputs.cache
-C:\Users\KritZ\Source\Repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\CustomControlLib.AssemblyInfo.cs
-C:\Users\KritZ\Source\Repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\CustomControlLib.csproj.CoreCompileInputs.cache
-C:\Users\KritZ\Source\Repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\CustomControlLib.dll
-C:\Users\KritZ\Source\Repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\refint\CustomControlLib.dll
-C:\Users\KritZ\Source\Repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\CustomControlLib.pdb
-C:\Users\KritZ\Source\Repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\ref\CustomControlLib.dll
-=======
 C:\Users\User\Source\Repos\SunClouds\CustomControlLib\bin\Debug\net6.0-windows\CustomControlLib.deps.json
 C:\Users\User\Source\Repos\SunClouds\CustomControlLib\bin\Debug\net6.0-windows\CustomControlLib.dll
 C:\Users\User\Source\Repos\SunClouds\CustomControlLib\bin\Debug\net6.0-windows\CustomControlLib.pdb
@@ -51,4 +32,20 @@ C:\Users\User\Source\Repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\C
 C:\Users\User\Source\Repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\refint\CustomControlLib.dll
 C:\Users\User\Source\Repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\CustomControlLib.pdb
 C:\Users\User\Source\Repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\ref\CustomControlLib.dll
->>>>>>> master
+C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\CustomControlLib\bin\Debug\net6.0-windows\CustomControlLib.deps.json
+C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\CustomControlLib\bin\Debug\net6.0-windows\CustomControlLib.dll
+C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\CustomControlLib\bin\Debug\net6.0-windows\CustomControlLib.pdb
+C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\CustomControlLib\obj\Debug\net6.0-windows\CustomControlLib.csproj.AssemblyReference.cache
+C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\CustomControlLib\obj\Debug\net6.0-windows\UserControl1.g.cs
+C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\CustomControlLib\obj\Debug\net6.0-windows\CustomControlLib_MarkupCompile.cache
+C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\CustomControlLib\obj\Debug\net6.0-windows\CustomControlLib_MarkupCompile.lref
+C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\CustomControlLib\obj\Debug\net6.0-windows\UserControl1.baml
+C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\CustomControlLib\obj\Debug\net6.0-windows\CustomControlLib.g.resources
+C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\CustomControlLib\obj\Debug\net6.0-windows\CustomControlLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\CustomControlLib\obj\Debug\net6.0-windows\CustomControlLib.AssemblyInfoInputs.cache
+C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\CustomControlLib\obj\Debug\net6.0-windows\CustomControlLib.AssemblyInfo.cs
+C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\CustomControlLib\obj\Debug\net6.0-windows\CustomControlLib.csproj.CoreCompileInputs.cache
+C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\CustomControlLib\obj\Debug\net6.0-windows\CustomControlLib.dll
+C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\CustomControlLib\obj\Debug\net6.0-windows\refint\CustomControlLib.dll
+C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\CustomControlLib\obj\Debug\net6.0-windows\CustomControlLib.pdb
+C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\CustomControlLib\obj\Debug\net6.0-windows\ref\CustomControlLib.dll

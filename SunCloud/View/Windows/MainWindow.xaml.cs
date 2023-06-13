@@ -82,7 +82,7 @@ namespace SunCloud
         }
 
         // сворачивание окна
-        private void MinimizeWindow(object sender, MouseButtonEventArgs e) 
+        private void MinimizeWindow(object sender, MouseButtonEventArgs e)
         {
             try
             {
