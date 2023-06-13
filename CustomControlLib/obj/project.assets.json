@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\CustomControlLib\\CustomControlLib.csproj",
+      "projectUniqueName": "C:\\Users\\LinQuid\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
       "projectName": "CustomControlLib",
-      "projectPath": "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\CustomControlLib\\CustomControlLib.csproj",
+      "projectPath": "C:\\Users\\LinQuid\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
       "packagesPath": "C:\\Users\\LinQuid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\CustomControlLib\\obj\\",
+      "outputPath": "C:\\Users\\LinQuid\\Source\\Repos\\SunClouds\\CustomControlLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LinQuid\\AppData\\Roaming\\NuGet\\NuGet.Config",

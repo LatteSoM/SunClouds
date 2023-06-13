@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\StylesLib\\StylesLib.csproj": {}
+    "C:\\Users\\LinQuid\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\StylesLib\\StylesLib.csproj": {
+    "C:\\Users\\LinQuid\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\StylesLib\\StylesLib.csproj",
+        "projectUniqueName": "C:\\Users\\LinQuid\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj",
         "projectName": "StylesLib",
-        "projectPath": "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\StylesLib\\StylesLib.csproj",
+        "projectPath": "C:\\Users\\LinQuid\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj",
         "packagesPath": "C:\\Users\\LinQuid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\StylesLib\\obj\\",
+        "outputPath": "C:\\Users\\LinQuid\\Source\\Repos\\SunClouds\\StylesLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LinQuid\\AppData\\Roaming\\NuGet\\NuGet.Config",
