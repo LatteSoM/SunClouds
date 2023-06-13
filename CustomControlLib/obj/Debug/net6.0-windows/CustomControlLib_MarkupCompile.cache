@@ -4,17 +4,17 @@
 library
 C#
 .cs
-C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\CustomControlLib\obj\Debug\net6.0-windows\
+C:\Users\LinQuid\Source\Repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\
 CustomControlLib
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 
-1-39517732
+3-2034888760
 
-2-1525211392
+42130594930
 194-1617825143
-UserControl1.xaml;
+CustomTbx.xaml;GraduceBtn.xaml;UserControl1.xaml;
 
 False
 

@@ -4,17 +4,17 @@
 library
 C#
 .cs
-C:\Users\sakura\Source\Repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\
+C:\Users\sakura\source\repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\
 CustomControlLib
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 
-1-39517732
+3-2034888760
 
-484769860
+6-554391114
 1941709816142
-UserControl1.xaml;
+CustomTbx.xaml;GraduceBtn.xaml;UserControl1.xaml;
 
-True
+False
 

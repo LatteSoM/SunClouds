@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\sakura\Source\Repos\SunClouds\StylesLib\obj\Debug\net6.0-windows\
+C:\Users\sakura\source\repos\SunClouds\StylesLib\obj\Debug\net6.0-windows\
 StylesLib
 none
 false
@@ -16,5 +16,5 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 1941709816142
 Themes\Generic.xaml;
 
-True
+False
 

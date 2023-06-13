@@ -45,7 +45,7 @@
     <!-- стиль для текстблока названия приложухи-->
     <Style x:Key="MainWindowCurrCityTb" TargetType="TextBlock">
         <Setter Property="Foreground" Value="#ffffff"/>
-        <Setter Property="FontFamily" Value="/view/resources/font/#Jura Regular"/>
+        <Setter Property="FontFamily" Value="/view/resources/fonts/#Jura Regular"/>
         <Setter Property="FontSize" Value="25"/>
         <Setter Property="Margin" Value="18px 0 18px 0px"/>
         <Setter Property="VerticalAlignment" Value="Bottom"/>
@@ -58,7 +58,7 @@
         <Setter Property="Background" Value="#87B6CA"/>
         <Setter Property="Opacity" Value="0.5"/>
         <Setter Property="Foreground" Value="#ffffff"/>
-        <Setter Property="FontFamily" Value="/view/resources/font/#Jura Regular"/>
+        <Setter Property="FontFamily" Value="/view/resources/fonts/#Jura Regular"/>
         <Setter Property="FontSize" Value="14"/>
         <Setter Property="Margin" Value="18px 0px 18px 0"/>
         <Setter Property="VerticalContentAlignment" Value="Center"/>
@@ -80,7 +80,7 @@
     <!--Стиль лейбла внутри кнопки Узнать погоду-->
     <Style x:Key="WhatWeatherBtnLabel" TargetType="Label">
         <Setter Property="Foreground" Value="#ffffff"/>
-        <Setter Property="FontFamily" Value="/view/resources/font/#Jura Regular"/>
+        <Setter Property="FontFamily" Value="/view/resources/fonts/#Jura Regular"/>
         <Setter Property="FontSize" Value="14"/>
         <Setter Property="VerticalAlignment" Value="Stretch"/>
     </Style>
@@ -105,7 +105,7 @@
         <Setter Property="BorderThickness" Value="0 0 0 0"/>
         <Setter Property="BorderBrush" Value="#ffffff"/>
         <Setter Property="Margin" Value="37 0 37 0"/>
-        <Setter Property="FontFamily" Value="/view/resources/font/#Jura Regular"/>
+        <Setter Property="FontFamily" Value="/view/resources/fonts/#Jura Regular"/>
         <Setter Property="FontSize" Value="35"/>
     </Style>
 
@@ -144,14 +144,14 @@
     <!--Стиль лейблов внутри кнопок погода и найстроки-->
     <Style x:Key="ChangePageBtnLabel" TargetType="Label">
         <Setter Property="Foreground" Value="#ffffff"/>
-        <Setter Property="FontFamily" Value="/view/resources/font/#Jura Regular"/>
+        <Setter Property="FontFamily" Value="/view/resources/fonts/#Jura Regular"/>
         <Setter Property="FontSize" Value="35"/>
         <Setter Property="VerticalAlignment" Value="Stretch"/>
     </Style>
     <!--Стиль текстблока с выбранным сейчас городом в левой колонке-->
     <Style x:Key="CurrCityTb" TargetType="TextBlock">
         <Setter Property="Foreground" Value="#3D95B9"/>
-        <Setter Property="FontFamily" Value="/view/resources/font/#Jura Regular"/>
+        <Setter Property="FontFamily" Value="/view/resources/fonts/#Jura Regular"/>
         <Setter Property="FontSize" Value="35"/>
     </Style>
 

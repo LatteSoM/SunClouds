@@ -109,7 +109,7 @@ namespace SunCloud.View.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/SunCloud;V1.0.0.0;component/view/windows/primarywindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/SunCloud;component/view/windows/primarywindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\View\Windows\PrimaryWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
