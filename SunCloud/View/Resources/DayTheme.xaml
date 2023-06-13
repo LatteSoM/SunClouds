@@ -45,7 +45,7 @@
     <!-- стиль для текстблока названия приложухи-->
     <Style x:Key="MainWindowCurrCityTb" TargetType="TextBlock">
         <Setter Property="Foreground" Value="#ffffff"/>
-        <Setter Property="FontFamily" Value="/view/resources/font/#Jura Regular"/>
+        <Setter Property="FontFamily" Value="/view/resources/fonts/#Jura Regular"/>
         <Setter Property="FontSize" Value="25"/>
         <Setter Property="Margin" Value="18px 0 18px 0px"/>
         <Setter Property="VerticalAlignment" Value="Bottom"/>

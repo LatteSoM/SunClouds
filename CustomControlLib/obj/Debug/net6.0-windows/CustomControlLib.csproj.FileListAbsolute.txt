@@ -49,3 +49,7 @@ C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\Custo
 C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\CustomControlLib\obj\Debug\net6.0-windows\refint\CustomControlLib.dll
 C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\CustomControlLib\obj\Debug\net6.0-windows\CustomControlLib.pdb
 C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\CustomControlLib\obj\Debug\net6.0-windows\ref\CustomControlLib.dll
+C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\CustomControlLib\obj\Debug\net6.0-windows\CustomTbx.g.cs
+C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\CustomControlLib\obj\Debug\net6.0-windows\GraduceBtn.g.cs
+C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\CustomControlLib\obj\Debug\net6.0-windows\CustomTbx.baml
+C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\CustomControlLib\obj\Debug\net6.0-windows\GraduceBtn.baml
