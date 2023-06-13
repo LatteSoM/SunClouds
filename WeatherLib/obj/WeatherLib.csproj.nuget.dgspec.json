@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {}
+    "C:\\Users\\KritZ\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {
+    "C:\\Users\\KritZ\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
+        "projectUniqueName": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
         "projectName": "WeatherLib",
-        "projectPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
+        "projectPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
         "packagesPath": "C:\\Users\\KritZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\WeatherLib\\obj\\",
+        "outputPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\WeatherLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Software\\Utilities\\MicrosoftVisualStudio\\Shared\\NuGetPackages"

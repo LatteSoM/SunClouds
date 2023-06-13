@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "bs9gBJsxa5G6xtay8G/IUl9OG0csfmq9mdF4U+NjLBt6rwzGYCGelM+bd2qH6e7HNBG8gHukgT6tomBqWOIDRw==",
+  "dgSpecHash": "CbxYAMa26gCrm3/g86xs72WY60KUOp7wFOrY+2oyuYym3z0Pdn57DCBGGthsU9Mz8cdefACrv987Jfsdw1cfPg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\SunCloud\\SunCloud.csproj",
+  "projectFilePath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\SunCloud\\SunCloud.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Ошибка чтения файла кэша C:\\Users\\KritZ\\source\\repos\\SunClouds\\SunCloud\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

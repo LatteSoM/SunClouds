@@ -10,6 +10,7 @@ C:\Users\LinQuid\source\repos\WeatherLib\obj\Debug\net6.0\WeatherLib.dll
 C:\Users\LinQuid\source\repos\WeatherLib\obj\Debug\net6.0\refint\WeatherLib.dll
 C:\Users\LinQuid\source\repos\WeatherLib\obj\Debug\net6.0\WeatherLib.pdb
 C:\Users\LinQuid\source\repos\WeatherLib\obj\Debug\net6.0\ref\WeatherLib.dll
+<<<<<<< HEAD
 C:\Users\KritZ\Source\Repos\SunClouds\WeatherLib\bin\Debug\net6.0\WeatherLib.deps.json
 C:\Users\KritZ\Source\Repos\SunClouds\WeatherLib\bin\Debug\net6.0\WeatherLib.dll
 C:\Users\KritZ\Source\Repos\SunClouds\WeatherLib\bin\Debug\net6.0\WeatherLib.pdb
@@ -22,3 +23,17 @@ C:\Users\KritZ\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.dll
 C:\Users\KritZ\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\refint\WeatherLib.dll
 C:\Users\KritZ\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.pdb
 C:\Users\KritZ\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\ref\WeatherLib.dll
+=======
+C:\Users\User\Source\Repos\SunClouds\WeatherLib\bin\Debug\net6.0\WeatherLib.deps.json
+C:\Users\User\Source\Repos\SunClouds\WeatherLib\bin\Debug\net6.0\WeatherLib.dll
+C:\Users\User\Source\Repos\SunClouds\WeatherLib\bin\Debug\net6.0\WeatherLib.pdb
+C:\Users\User\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.AssemblyInfoInputs.cache
+C:\Users\User\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.AssemblyInfo.cs
+C:\Users\User\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.dll
+C:\Users\User\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\refint\WeatherLib.dll
+C:\Users\User\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.pdb
+C:\Users\User\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\ref\WeatherLib.dll
+>>>>>>> master

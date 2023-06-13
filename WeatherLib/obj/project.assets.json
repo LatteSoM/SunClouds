@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
+      "projectUniqueName": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
       "projectName": "WeatherLib",
-      "projectPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
+      "projectPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
       "packagesPath": "C:\\Users\\KritZ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\WeatherLib\\obj\\",
+      "outputPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\WeatherLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Software\\Utilities\\MicrosoftVisualStudio\\Shared\\NuGetPackages"
@@ -69,5 +69,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Ошибка чтения файла кэша C:\\Users\\KritZ\\source\\repos\\SunClouds\\WeatherLib\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

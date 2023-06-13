@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\SunCloud\\SunCloud.csproj": {}
+    "C:\\Users\\KritZ\\source\\repos\\SunClouds\\SunCloud\\SunCloud.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj": {
+    "C:\\Users\\KritZ\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
+        "projectUniqueName": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
         "projectName": "CustomControlLib",
-        "projectPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
+        "projectPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
         "packagesPath": "C:\\Users\\KritZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\CustomControlLib\\obj\\",
+        "outputPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\CustomControlLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Software\\Utilities\\MicrosoftVisualStudio\\Shared\\NuGetPackages"
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj": {
+    "C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj",
+        "projectUniqueName": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj",
         "projectName": "StylesLib",
-        "projectPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj",
+        "projectPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj",
         "packagesPath": "C:\\Users\\KritZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\StylesLib\\obj\\",
+        "outputPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Software\\Utilities\\MicrosoftVisualStudio\\Shared\\NuGetPackages"
@@ -128,14 +128,14 @@
         }
       }
     },
-    "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\SunCloud\\SunCloud.csproj": {
+    "C:\\Users\\KritZ\\source\\repos\\SunClouds\\SunCloud\\SunCloud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\SunCloud\\SunCloud.csproj",
+        "projectUniqueName": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\SunCloud\\SunCloud.csproj",
         "projectName": "SunCloud",
-        "projectPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\SunCloud\\SunCloud.csproj",
+        "projectPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\SunCloud\\SunCloud.csproj",
         "packagesPath": "C:\\Users\\KritZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\SunCloud\\obj\\",
+        "outputPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\SunCloud\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Software\\Utilities\\MicrosoftVisualStudio\\Shared\\NuGetPackages"
@@ -156,14 +156,14 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj": {
-                "projectPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj"
+              "C:\\Users\\KritZ\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj": {
+                "projectPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj"
               },
-              "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj": {
-                "projectPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj"
+              "C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj": {
+                "projectPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj"
               },
-              "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {
-                "projectPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj"
+              "C:\\Users\\KritZ\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {
+                "projectPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj"
               }
             }
           }
@@ -200,14 +200,14 @@
         }
       }
     },
-    "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {
+    "C:\\Users\\KritZ\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
+        "projectUniqueName": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
         "projectName": "WeatherLib",
-        "projectPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
+        "projectPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
         "packagesPath": "C:\\Users\\KritZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\WeatherLib\\obj\\",
+        "outputPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\WeatherLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Software\\Utilities\\MicrosoftVisualStudio\\Shared\\NuGetPackages"

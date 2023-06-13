@@ -15,6 +15,7 @@ C:\Users\LinQuid\source\repos\StylesLib\obj\Debug\net6.0-windows\StylesLib.dll
 C:\Users\LinQuid\source\repos\StylesLib\obj\Debug\net6.0-windows\refint\StylesLib.dll
 C:\Users\LinQuid\source\repos\StylesLib\obj\Debug\net6.0-windows\StylesLib.pdb
 C:\Users\LinQuid\source\repos\StylesLib\obj\Debug\net6.0-windows\ref\StylesLib.dll
+<<<<<<< HEAD
 C:\Users\KritZ\Source\Repos\SunClouds\StylesLib\bin\Debug\net6.0-windows\StylesLib.deps.json
 C:\Users\KritZ\Source\Repos\SunClouds\StylesLib\bin\Debug\net6.0-windows\StylesLib.dll
 C:\Users\KritZ\Source\Repos\SunClouds\StylesLib\bin\Debug\net6.0-windows\StylesLib.pdb
@@ -32,3 +33,22 @@ C:\Users\KritZ\Source\Repos\SunClouds\StylesLib\obj\Debug\net6.0-windows\StylesL
 C:\Users\KritZ\Source\Repos\SunClouds\StylesLib\obj\Debug\net6.0-windows\refint\StylesLib.dll
 C:\Users\KritZ\Source\Repos\SunClouds\StylesLib\obj\Debug\net6.0-windows\StylesLib.pdb
 C:\Users\KritZ\Source\Repos\SunClouds\StylesLib\obj\Debug\net6.0-windows\ref\StylesLib.dll
+=======
+C:\Users\User\Source\Repos\SunClouds\StylesLib\bin\Debug\net6.0-windows\StylesLib.deps.json
+C:\Users\User\Source\Repos\SunClouds\StylesLib\bin\Debug\net6.0-windows\StylesLib.dll
+C:\Users\User\Source\Repos\SunClouds\StylesLib\bin\Debug\net6.0-windows\StylesLib.pdb
+C:\Users\User\Source\Repos\SunClouds\StylesLib\obj\Debug\net6.0-windows\StylesLib.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\SunClouds\StylesLib\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\User\Source\Repos\SunClouds\StylesLib\obj\Debug\net6.0-windows\StylesLib_MarkupCompile.cache
+C:\Users\User\Source\Repos\SunClouds\StylesLib\obj\Debug\net6.0-windows\StylesLib_MarkupCompile.lref
+C:\Users\User\Source\Repos\SunClouds\StylesLib\obj\Debug\net6.0-windows\Themes\Generic.baml
+C:\Users\User\Source\Repos\SunClouds\StylesLib\obj\Debug\net6.0-windows\StylesLib.g.resources
+C:\Users\User\Source\Repos\SunClouds\StylesLib\obj\Debug\net6.0-windows\StylesLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Source\Repos\SunClouds\StylesLib\obj\Debug\net6.0-windows\StylesLib.AssemblyInfoInputs.cache
+C:\Users\User\Source\Repos\SunClouds\StylesLib\obj\Debug\net6.0-windows\StylesLib.AssemblyInfo.cs
+C:\Users\User\Source\Repos\SunClouds\StylesLib\obj\Debug\net6.0-windows\StylesLib.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\SunClouds\StylesLib\obj\Debug\net6.0-windows\StylesLib.dll
+C:\Users\User\Source\Repos\SunClouds\StylesLib\obj\Debug\net6.0-windows\refint\StylesLib.dll
+C:\Users\User\Source\Repos\SunClouds\StylesLib\obj\Debug\net6.0-windows\StylesLib.pdb
+C:\Users\User\Source\Repos\SunClouds\StylesLib\obj\Debug\net6.0-windows\ref\StylesLib.dll
+>>>>>>> master
