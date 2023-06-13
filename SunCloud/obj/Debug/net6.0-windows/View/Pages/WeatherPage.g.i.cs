@@ -53,7 +53,7 @@ namespace SunCloud.View.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/SunCloud;component/view/pages/weatherpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/SunCloud;V1.0.0.0;component/view/pages/weatherpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\View\Pages\WeatherPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
