@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\WeatherLib\\WeatherLib.csproj": {}
+    "C:\\Users\\sakura\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\WeatherLib\\WeatherLib.csproj": {
+    "C:\\Users\\sakura\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\WeatherLib\\WeatherLib.csproj",
+        "projectUniqueName": "C:\\Users\\sakura\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
         "projectName": "WeatherLib",
-        "projectPath": "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\WeatherLib\\WeatherLib.csproj",
-        "packagesPath": "C:\\Users\\LinQuid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\WeatherLib\\obj\\",
+        "projectPath": "C:\\Users\\sakura\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
+        "packagesPath": "C:\\Users\\sakura\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sakura\\Source\\Repos\\SunClouds\\WeatherLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LinQuid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sakura\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

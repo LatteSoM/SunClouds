@@ -30,6 +30,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\CustomControlLib\CustomControlLib.csproj" />
     <ProjectReference Include="..\StylesLib\StylesLib.csproj" />
     <ProjectReference Include="..\WeatherLib\WeatherLib.csproj" />

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/H862EdQOu1mqxkqzg2GlaVr45yumjQGieFYcjiPxqKnYmae0HLe5kZ7/ZrpJNT2xvKbVvYqh8ZMKYX9SKMa0g==",
+  "dgSpecHash": "NMjacxSceHGPEm3WKOXgb+yRTlkl4dlwJp8MGs0pkl5DhQnhbFiSwwmVmOADBEUegypKBayhhvKXaLziK9OrFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\SunCloud\\SunCloud.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\sakura\\Source\\Repos\\SunClouds\\SunCloud\\SunCloud.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sakura\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

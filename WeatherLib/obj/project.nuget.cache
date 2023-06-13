@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fhjo68MZkRw5Nk+r1l0mpj4GwtlhHJJzOzlSXfBlLPm/80QMpUsdaQynpJAl8sXXTC09WmTBisvvfan5Mn/6PA==",
+  "dgSpecHash": "Ww0sPg4L9j5AYUBOKF/ZWoJYD0pjsdfM4rfwfoiuGNwdDXABV+/KmpF1jg7ppo7v7UYtmlGHuOPT5L6QjMuW/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\WeatherLib\\WeatherLib.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\sakura\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sakura\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
