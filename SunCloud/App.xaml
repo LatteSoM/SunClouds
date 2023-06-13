@@ -4,6 +4,12 @@
              xmlns:local="clr-namespace:SunCloud"
              StartupUri="View/Windows/MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="view/resources/DayTheme.xaml"/>
+                <ResourceDictionary Source="view/resources/MorningEveningTheme.xaml"/>
+                <ResourceDictionary Source="view/resources/NightTheme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

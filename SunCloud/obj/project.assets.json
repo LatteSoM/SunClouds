@@ -65,19 +65,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LinQuid\\.nuget\\packages\\": {}
+    "C:\\Users\\KritZ\\.nuget\\packages\\": {},
+    "D:\\Software\\Utilities\\MicrosoftVisualStudio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LinQuid\\Desktop\\Project\\SunCloud\\SunCloud.csproj",
+      "projectUniqueName": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\SunCloud\\SunCloud.csproj",
       "projectName": "SunCloud",
-      "projectPath": "C:\\Users\\LinQuid\\Desktop\\Project\\SunCloud\\SunCloud.csproj",
-      "packagesPath": "C:\\Users\\LinQuid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LinQuid\\Desktop\\Project\\SunCloud\\obj\\",
+      "projectPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\SunCloud\\SunCloud.csproj",
+      "packagesPath": "C:\\Users\\KritZ\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\SunCloud\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Software\\Utilities\\MicrosoftVisualStudio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\LinQuid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\KritZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -91,14 +96,14 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\LinQuid\\Desktop\\Project\\CustomControlLib\\CustomControlLib.csproj": {
-              "projectPath": "C:\\Users\\LinQuid\\Desktop\\Project\\CustomControlLib\\CustomControlLib.csproj"
+            "C:\\Users\\KritZ\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj": {
+              "projectPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj"
             },
-            "C:\\Users\\LinQuid\\Desktop\\Project\\StylesLib\\StylesLib.csproj": {
-              "projectPath": "C:\\Users\\LinQuid\\Desktop\\Project\\StylesLib\\StylesLib.csproj"
+            "C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj": {
+              "projectPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj"
             },
-            "C:\\Users\\LinQuid\\Desktop\\Project\\WeatherLib\\WeatherLib.csproj": {
-              "projectPath": "C:\\Users\\LinQuid\\Desktop\\Project\\WeatherLib\\WeatherLib.csproj"
+            "C:\\Users\\KritZ\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {
+              "projectPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj"
             }
           }
         }
@@ -131,7 +136,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
