@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SunCloud.View.Windows;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,7 +23,76 @@ namespace SunCloud
     {
         public MainWindow()
         {
-            InitializeComponent();
+            try
+            {
+                InitializeComponent();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                throw;
+            }
+        }
+
+        // переход на окно с инфой о погоде в городе
+        private void WhatWeatherBtn_Click(object sender, RoutedEventArgs e)
+        {
+            PrimaryWindow a = new PrimaryWindow();
+            a.Show();
+        }
+
+        //Метод для перетаскивания окна
+        private void DragWindow(object sender, MouseButtonEventArgs e)
+        {
+            try
+            {
+                DragMove();
+            }
+            catch (Exception)
+            {
+                //throw;
+            }
+        }
+
+        private void CloseWindow(object sender, MouseButtonEventArgs e)
+        {
+            try
+            {
+                Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                //throw;
+            }
+        }
+
+        //окно на фуллскрин. не доделан возврат к прошлому размеру по повторному нажатию. мне лень
+        private void MaximizeWindow(object sender, MouseButtonEventArgs e)
+        {
+            try
+            {
+                this.WindowState = WindowState.Maximized;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                //throw;
+            }
+        }
+
+        // сворачивание окна
+        private void MinimizeWindow(object sender, MouseButtonEventArgs e) 
+        {
+            try
+            {
+                this.WindowState = WindowState.Minimized;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                //throw;
+            }
         }
     }
 }

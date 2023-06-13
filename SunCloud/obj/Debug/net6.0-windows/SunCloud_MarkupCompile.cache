@@ -4,16 +4,28 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
+C:\Users\KritZ\Source\Repos\SunClouds\SunCloud\obj\Debug\net6.0-windows\
+=======
 C:\Users\User\Source\Repos\SunClouds\SunCloud\obj\Debug\net6.0-windows\
+>>>>>>> master
 SunCloud
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+<<<<<<< HEAD
+C:\Users\KritZ\Source\Repos\SunClouds\SunCloud\App.xaml
+7-1939505592
+
+91599786528
+1971853644110
+=======
 C:\Users\User\Source\Repos\SunClouds\SunCloud\App.xaml
 7-1939505592
 
 91599786528
 1971973293989
+>>>>>>> master
 View\Pages\SettingsPage.xaml;View\Pages\WeatherPage.xaml;View\Resources\DayTheme.xaml;View\Resources\MorningEveningTheme.xaml;View\Resources\NightTheme.xaml;View\Windows\MainWindow.xaml;View\Windows\PrimaryWindow.xaml;
 
 False

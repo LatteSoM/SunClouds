@@ -38,10 +38,10 @@
         <Setter Property="Margin" Value="2px"/>
     </Style>
 
-
-
+    
+    
     <!-- ########### СТИЛИ ДЛЯ MainWindow ###########-->
-
+    
     <!-- стиль для текстблока названия приложухи-->
     <Style x:Key="MainWindowCurrCityTb" TargetType="TextBlock">
         <Setter Property="Foreground" Value="#ffffff"/>
@@ -84,16 +84,16 @@
         <Setter Property="FontSize" Value="14"/>
         <Setter Property="VerticalAlignment" Value="Stretch"/>
     </Style>
-
+    
 
     <!-- ########### СТИЛИ ДЛЯ PrimaryWindow ###########-->
-
+    
     <!--Стиль фонового изображения-->
     <Style x:Key="DayWindowBackground" TargetType="Image">
         <Setter Property="Source" Value="/view/resources/images/Day.png"/>
         <Setter Property="Stretch" Value="Fill"/>
     </Style>
-
+    
     <!--Стиль кнопок погода и найстроки-->
     <Style x:Key="ChangePageBtn" TargetType="Button">
         <Setter Property="Foreground" Value="#ffffff"/>
@@ -155,7 +155,7 @@
         <Setter Property="FontSize" Value="35"/>
     </Style>
 
-
+    
 
 
 
