@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\LinQuid\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\LinQuid\\.nuget\\packages"
+      "C:\\Users\\sakura\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\sakura\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
