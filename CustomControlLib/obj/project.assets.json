@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\LinQuid\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LinQuid\\Desktop\\Project\\CustomControlLib\\CustomControlLib.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
       "projectName": "CustomControlLib",
-      "projectPath": "C:\\Users\\LinQuid\\Desktop\\Project\\CustomControlLib\\CustomControlLib.csproj",
-      "packagesPath": "C:\\Users\\LinQuid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LinQuid\\Desktop\\Project\\CustomControlLib\\obj\\",
+      "projectPath": "C:\\Users\\User\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Source\\Repos\\SunClouds\\CustomControlLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\LinQuid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
