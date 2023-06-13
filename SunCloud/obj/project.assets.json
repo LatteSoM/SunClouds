@@ -71,9 +71,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\SunCloud\\SunCloud.csproj",
+      "projectUniqueName": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\SunCloud\\SunCloud.csproj",
       "projectName": "SunCloud",
-      "projectPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\SunCloud\\SunCloud.csproj",
+      "projectPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\SunCloud\\SunCloud.csproj",
       "packagesPath": "C:\\Users\\KritZ\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\SunCloud\\obj\\",
       "projectStyle": "PackageReference",
@@ -96,14 +96,14 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\KritZ\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj": {
-              "projectPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj"
+            "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj": {
+              "projectPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj"
             },
-            "C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj": {
-              "projectPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj"
+            "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj": {
+              "projectPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj"
             },
-            "C:\\Users\\KritZ\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {
-              "projectPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj"
+            "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {
+              "projectPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj"
             }
           }
         }

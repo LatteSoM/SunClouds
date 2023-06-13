@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj": {}
+    "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj": {
+    "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj",
+        "projectUniqueName": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj",
         "projectName": "StylesLib",
-        "projectPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj",
+        "projectPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj",
         "packagesPath": "C:\\Users\\KritZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\obj\\",
+        "outputPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\StylesLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Software\\Utilities\\MicrosoftVisualStudio\\Shared\\NuGetPackages"
