@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\WeatherLib\\WeatherLib.csproj",
+      "projectUniqueName": "C:\\Users\\LinQuid\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
       "projectName": "WeatherLib",
-      "projectPath": "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\WeatherLib\\WeatherLib.csproj",
+      "projectPath": "C:\\Users\\LinQuid\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
       "packagesPath": "C:\\Users\\LinQuid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\WeatherLib\\obj\\",
+      "outputPath": "C:\\Users\\LinQuid\\Source\\Repos\\SunClouds\\WeatherLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LinQuid\\AppData\\Roaming\\NuGet\\NuGet.Config",

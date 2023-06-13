@@ -7,10 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="fonts\Jura-Regular.ttf" />
     <None Remove="Images\CloseBtnWhite.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="fonts\Jura-Regular.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Images\CloseBtnWhite.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
