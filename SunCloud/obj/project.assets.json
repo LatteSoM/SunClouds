@@ -65,19 +65,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LinQuid\\.nuget\\packages\\": {}
+    "C:\\Users\\Levisto\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\SunCloud\\SunCloud.csproj",
+      "projectUniqueName": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\SunCloud\\SunCloud.csproj",
       "projectName": "SunCloud",
-      "projectPath": "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\SunCloud\\SunCloud.csproj",
-      "packagesPath": "C:\\Users\\LinQuid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\SunCloud\\obj\\",
+      "projectPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\SunCloud\\SunCloud.csproj",
+      "packagesPath": "C:\\Users\\Levisto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\SunCloud\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\LinQuid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Levisto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -91,14 +96,14 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\CustomControlLib\\CustomControlLib.csproj": {
-              "projectPath": "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\CustomControlLib\\CustomControlLib.csproj"
+            "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj": {
+              "projectPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj"
             },
-            "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\StylesLib\\StylesLib.csproj": {
-              "projectPath": "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\StylesLib\\StylesLib.csproj"
+            "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj": {
+              "projectPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj"
             },
-            "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\WeatherLib\\WeatherLib.csproj": {
-              "projectPath": "C:\\Users\\LinQuid\\Downloads\\SunClouds-styles-themes\\SunClouds-styles-themes\\WeatherLib\\WeatherLib.csproj"
+            "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {
+              "projectPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj"
             }
           }
         }
@@ -131,7 +136,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
