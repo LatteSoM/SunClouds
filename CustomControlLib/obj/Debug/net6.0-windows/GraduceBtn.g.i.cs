@@ -53,7 +53,7 @@ namespace CustomControlLib {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CustomControlLib;V1.0.0.0;component/graducebtn.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CustomControlLib;component/graducebtn.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\GraduceBtn.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
