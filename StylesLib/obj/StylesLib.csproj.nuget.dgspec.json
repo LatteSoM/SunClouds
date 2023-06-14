@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\papka\\StylesLib\\StylesLib.csproj": {}
+    "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj": {}
   },
   "projects": {
-    "D:\\papka\\StylesLib\\StylesLib.csproj": {
+    "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\papka\\StylesLib\\StylesLib.csproj",
+        "projectUniqueName": "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj",
         "projectName": "StylesLib",
-        "projectPath": "D:\\papka\\StylesLib\\StylesLib.csproj",
-        "packagesPath": "C:\\Users\\naili\\.nuget\\packages\\",
-        "outputPath": "D:\\papka\\StylesLib\\obj\\",
+        "projectPath": "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj",
+        "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\StylesLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\naili\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

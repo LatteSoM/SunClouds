@@ -65,19 +65,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\naili\\.nuget\\packages\\": {}
+    "C:\\Users\\aleks\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\papka\\SunCloud\\SunCloud.csproj",
+      "projectUniqueName": "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\SunCloud\\SunCloud.csproj",
       "projectName": "SunCloud",
-      "projectPath": "D:\\papka\\SunCloud\\SunCloud.csproj",
-      "packagesPath": "C:\\Users\\naili\\.nuget\\packages\\",
-      "outputPath": "D:\\papka\\SunCloud\\obj\\",
+      "projectPath": "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\SunCloud\\SunCloud.csproj",
+      "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\SunCloud\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\naili\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -91,14 +91,14 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "D:\\papka\\CustomControlLib\\CustomControlLib.csproj": {
-              "projectPath": "D:\\papka\\CustomControlLib\\CustomControlLib.csproj"
+            "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj": {
+              "projectPath": "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj"
             },
-            "D:\\papka\\StylesLib\\StylesLib.csproj": {
-              "projectPath": "D:\\papka\\StylesLib\\StylesLib.csproj"
+            "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj": {
+              "projectPath": "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj"
             },
-            "D:\\papka\\WeatherLib\\WeatherLib.csproj": {
-              "projectPath": "D:\\papka\\WeatherLib\\WeatherLib.csproj"
+            "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {
+              "projectPath": "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj"
             }
           }
         }
@@ -131,7 +131,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
