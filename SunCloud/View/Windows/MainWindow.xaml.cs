@@ -26,6 +26,10 @@ namespace SunCloud
             try
             {
                 InitializeComponent();
+                CurrCityTbx.Foreground = Brushes.White;
+                CurrCityTbx.Text = "Ваш город";
+                CurrCityTbx.GotFocus += CurrCityTbx_GotFocus;
+                CurrCityTbx.LostFocus += CurrCityTbx_LostFocus;
             }
             catch (Exception ex)
             {
@@ -39,6 +43,7 @@ namespace SunCloud
         {
             PrimaryWindow a = new PrimaryWindow();
             a.Show();
+
         }
 
         //Метод для перетаскивания окна
@@ -94,5 +99,59 @@ namespace SunCloud
                 //throw;
             }
         }
+
+        private void CurrCityTbx_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            // показываем или скрываем кнопку очистки, в зависимости от содержимого TextBox
+            if (string.IsNullOrWhiteSpace(CurrCityTbx.Text))
+            {
+                BtnClearTextBox.Visibility = Visibility.Collapsed;
+            }
+            else
+            {
+                BtnClearTextBox.Visibility = Visibility.Visible;
+            }
+        }
+
+        private void CurrCityTbx_GotFocus(object sender, RoutedEventArgs e)
+        {
+            // если юзер нажимает на кнопку, очищаем хинт
+            if (CurrCityTbx.Text == "Ваш город")
+            {
+                CurrCityTbx.Text = string.Empty;
+                BtnClearTextBox.Visibility = Visibility.Visible;
+            }
+        }
+
+        private void CurrCityTbx_LostFocus(object sender, RoutedEventArgs e)
+        {
+            // если текстбокс пустой, показываем хинт
+            if (string.IsNullOrWhiteSpace(CurrCityTbx.Text))
+            {
+                CurrCityTbx.Text = "Ваш город";
+                CurrCityTbx.Foreground = Brushes.White;
+            }
+        }
+
+        private void BtnClearTextBox_Click(object sender, RoutedEventArgs e)
+        {
+            // очищаем текстбокс по кнопке
+            CurrCityTbx.Text = string.Empty;
+            BtnClearTextBox.Visibility = Visibility.Collapsed;
+        }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

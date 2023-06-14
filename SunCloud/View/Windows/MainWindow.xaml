@@ -60,7 +60,7 @@
                     </Separator.RenderTransform>
                 </Separator>
 
-                <TextBox Grid.Row="2" x:Name="CurrCityTbx" Style="{DynamicResource CurrCityTbx}">
+                <TextBox Grid.Row="2" x:Name="CurrCityTbx" Style="{DynamicResource CurrCityTbx}" TextChanged="CurrCityTbx_TextChanged" GotFocus="CurrCityTbx_GotFocus" LostFocus="CurrCityTbx_LostFocus">
                     <TextBox.Text>
                         <Binding Path="CityName">
                             <Binding.ValidationRules>
@@ -69,6 +69,9 @@
                         </Binding>
                     </TextBox.Text>
                 </TextBox>
+                <Button MinHeight="15px" Grid.Row="2" MaxHeight="20px" MinWidth="20px" MaxWidth="20px" Width="20px" x:Name="BtnClearTextBox" Style="{DynamicResource CloseWindowBtn}" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" Click="BtnClearTextBox_Click" HorizontalAlignment="Right" Margin="2,2,25,2">
+                    <Image Source="/view/resources/images/CloseBtnWhite.png" Opacity="0.6"/>
+                </Button>
 
                 <Button Grid.Row="4" x:Name="WhatWeatherBtn" Style="{DynamicResource WhatWeatherBtn}" Click="WhatWeatherBtn_Click">
                     <Label Style="{DynamicResource WhatWeatherBtnLabel}" Content="Узнать погоду" HorizontalAlignment="Center"/>
