@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\papka\\CustomControlLib\\CustomControlLib.csproj": {}
+    "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj": {}
   },
   "projects": {
-    "D:\\papka\\CustomControlLib\\CustomControlLib.csproj": {
+    "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\papka\\CustomControlLib\\CustomControlLib.csproj",
+        "projectUniqueName": "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
         "projectName": "CustomControlLib",
-        "projectPath": "D:\\papka\\CustomControlLib\\CustomControlLib.csproj",
-        "packagesPath": "C:\\Users\\naili\\.nuget\\packages\\",
-        "outputPath": "D:\\papka\\CustomControlLib\\obj\\",
+        "projectPath": "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
+        "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\CustomControlLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\naili\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
