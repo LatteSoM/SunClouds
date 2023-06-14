@@ -8,14 +8,46 @@
 
   <ItemGroup>
     <None Remove="fonts\Jura-Regular.ttf" />
+    <None Remove="Images\Blizzard.png" />
     <None Remove="Images\CloseBtnWhite.png" />
+    <None Remove="Images\Cloudy.png" />
+    <None Remove="Images\Downpour.png" />
+    <None Remove="Images\Rainy.png" />
+    <None Remove="Images\Snow.png" />
+    <None Remove="Images\Sunny.png" />
+    <None Remove="Images\Thunderstorm.png" />
+    <None Remove="Images\Wind.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="fonts\Jura-Regular.ttf">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="Images\Blizzard.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Images\CloseBtnWhite.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Cloudy.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Downpour.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Rainy.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Snow.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Sunny.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Thunderstorm.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Wind.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
