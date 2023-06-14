@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8mr7dJ3Y0TZ/DCIs1TD70vXn8BUMRy5Btn3E7J23xyjCbo0s1PqY6DAz1raMNrsJZStdlvo6KH2byor1iqIzJg==",
+  "dgSpecHash": "h35WqbtcmcucEUhXgTvkDCrAcsJLiF6U8lnGPvFEtUiW1nmmP2TqTuaDB3vHxvmCCB/KRFSgK0tamAJ25kHDpg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sakura\\Source\\Repos\\SunClouds\\SunCloud\\SunCloud.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\SunCloud\\SunCloud.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Levisto\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
