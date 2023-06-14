@@ -18,7 +18,7 @@
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"
                    Foreground="#ffffff"
-                   FontSize="15"/>
+                   FontSize="15" FontFamily="fonts/#Jura Regular"/>
         <RadioButton Grid.Column="0" VerticalAlignment="Center"
                   HorizontalAlignment="Center" 
                   Background="#ffffff" Foreground="#ffffff"

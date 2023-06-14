@@ -8,24 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Levisto\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\LinQuid\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
+      "projectUniqueName": "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
       "projectName": "CustomControlLib",
-      "projectPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
-      "packagesPath": "C:\\Users\\Levisto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\CustomControlLib\\obj\\",
+      "projectPath": "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
+      "packagesPath": "C:\\Users\\LinQuid\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\CustomControlLib\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Levisto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\LinQuid\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,8 +64,16 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Ошибка чтения файла кэша C:\\Users\\LinQuid\\source\\repos\\SunClouds\\CustomControlLib\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

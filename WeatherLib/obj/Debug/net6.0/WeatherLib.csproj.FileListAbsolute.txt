@@ -34,6 +34,7 @@ C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\Weath
 C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\WeatherLib\obj\Debug\net6.0\refint\WeatherLib.dll
 C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\WeatherLib\obj\Debug\net6.0\WeatherLib.pdb
 C:\Users\LinQuid\Downloads\SunClouds-styles-themes\SunClouds-styles-themes\WeatherLib\obj\Debug\net6.0\ref\WeatherLib.dll
+<<<<<<< HEAD
 C:\Users\Levisto\Source\Repos\SunClouds\WeatherLib\bin\Debug\net6.0\WeatherLib.deps.json
 C:\Users\Levisto\Source\Repos\SunClouds\WeatherLib\bin\Debug\net6.0\WeatherLib.dll
 C:\Users\Levisto\Source\Repos\SunClouds\WeatherLib\bin\Debug\net6.0\WeatherLib.pdb
@@ -46,3 +47,29 @@ C:\Users\Levisto\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.d
 C:\Users\Levisto\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\refint\WeatherLib.dll
 C:\Users\Levisto\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.pdb
 C:\Users\Levisto\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\ref\WeatherLib.dll
+=======
+C:\Users\LinQuid\Source\Repos\SunClouds\WeatherLib\bin\Debug\net6.0\WeatherLib.deps.json
+C:\Users\LinQuid\Source\Repos\SunClouds\WeatherLib\bin\Debug\net6.0\WeatherLib.dll
+C:\Users\LinQuid\Source\Repos\SunClouds\WeatherLib\bin\Debug\net6.0\WeatherLib.pdb
+C:\Users\LinQuid\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.csproj.AssemblyReference.cache
+C:\Users\LinQuid\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LinQuid\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.AssemblyInfoInputs.cache
+C:\Users\LinQuid\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.AssemblyInfo.cs
+C:\Users\LinQuid\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.csproj.CoreCompileInputs.cache
+C:\Users\LinQuid\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.dll
+C:\Users\LinQuid\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\refint\WeatherLib.dll
+C:\Users\LinQuid\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.pdb
+C:\Users\LinQuid\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\ref\WeatherLib.dll
+C:\Users\sakura\source\repos\SunClouds\WeatherLib\bin\Debug\net6.0\WeatherLib.deps.json
+C:\Users\sakura\source\repos\SunClouds\WeatherLib\bin\Debug\net6.0\WeatherLib.dll
+C:\Users\sakura\source\repos\SunClouds\WeatherLib\bin\Debug\net6.0\WeatherLib.pdb
+C:\Users\sakura\source\repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.csproj.AssemblyReference.cache
+C:\Users\sakura\source\repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sakura\source\repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.AssemblyInfoInputs.cache
+C:\Users\sakura\source\repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.AssemblyInfo.cs
+C:\Users\sakura\source\repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.csproj.CoreCompileInputs.cache
+C:\Users\sakura\source\repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.dll
+C:\Users\sakura\source\repos\SunClouds\WeatherLib\obj\Debug\net6.0\refint\WeatherLib.dll
+C:\Users\sakura\source\repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.pdb
+C:\Users\sakura\source\repos\SunClouds\WeatherLib\obj\Debug\net6.0\ref\WeatherLib.dll
+>>>>>>> master

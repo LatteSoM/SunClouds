@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\SunCloud\\SunCloud.csproj": {}
+    "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\SunCloud\\SunCloud.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj": {
+    "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
+        "projectUniqueName": "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
         "projectName": "CustomControlLib",
-        "projectPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
-        "packagesPath": "C:\\Users\\Levisto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\CustomControlLib\\obj\\",
+        "projectPath": "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
+        "packagesPath": "C:\\Users\\LinQuid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\CustomControlLib\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Levisto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\LinQuid\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,25 +58,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj": {
+    "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj",
+        "projectUniqueName": "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj",
         "projectName": "StylesLib",
-        "projectPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj",
-        "packagesPath": "C:\\Users\\Levisto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\StylesLib\\obj\\",
+        "projectPath": "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj",
+        "packagesPath": "C:\\Users\\LinQuid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\StylesLib\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Levisto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\LinQuid\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -124,25 +116,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\SunCloud\\SunCloud.csproj": {
+    "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\SunCloud\\SunCloud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\SunCloud\\SunCloud.csproj",
+        "projectUniqueName": "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\SunCloud\\SunCloud.csproj",
         "projectName": "SunCloud",
-        "projectPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\SunCloud\\SunCloud.csproj",
-        "packagesPath": "C:\\Users\\Levisto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\SunCloud\\obj\\",
+        "projectPath": "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\SunCloud\\SunCloud.csproj",
+        "packagesPath": "C:\\Users\\LinQuid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\SunCloud\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Levisto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\LinQuid\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -156,14 +144,14 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj": {
-                "projectPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj"
+              "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj": {
+                "projectPath": "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj"
               },
-              "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj": {
-                "projectPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj"
+              "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj": {
+                "projectPath": "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj"
               },
-              "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {
-                "projectPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj"
+              "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {
+                "projectPath": "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj"
               }
             }
           }
@@ -196,25 +184,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {
+    "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
+        "projectUniqueName": "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
         "projectName": "WeatherLib",
-        "projectPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
-        "packagesPath": "C:\\Users\\Levisto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\WeatherLib\\obj\\",
+        "projectPath": "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
+        "packagesPath": "C:\\Users\\LinQuid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\WeatherLib\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Levisto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\LinQuid\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -255,7 +239,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

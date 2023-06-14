@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="View\Resources\fonts\Jura-Regular.ttf" />
     <None Remove="View\Resources\images\Blizzard.png" />
     <None Remove="View\Resources\images\CloseBtn.png" />
     <None Remove="View\Resources\images\CloseBtnWhite.png" />
@@ -36,6 +37,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="View\Resources\fonts\Jura-Regular.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="View\Resources\images\Blizzard.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>

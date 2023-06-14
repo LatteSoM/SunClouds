@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "XK0vZ04YPq+tc22Pec8c9WqxrIUveOtyTfHv+06zqp1yyC/5Kq3+WbiC3kR+1i0DPDEsIi189cZCXCAo9FLIWQ==",
+  "dgSpecHash": "+zz5PlZcHkck/+aTuW24G+uxQej3Lo+BSsFUyLA+n1iJDbkOcD+T1ix62JZt/e6pjMuoqS12icu5sl9n4dtz7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
+  "projectFilePath": "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Ошибка чтения файла кэша C:\\Users\\LinQuid\\source\\repos\\SunClouds\\CustomControlLib\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

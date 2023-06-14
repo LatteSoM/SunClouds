@@ -4,7 +4,11 @@
 library
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\Levisto\Source\Repos\SunClouds\StylesLib\obj\Debug\net6.0-windows\
+=======
+C:\Users\sakura\source\repos\SunClouds\StylesLib\obj\Debug\net6.0-windows\
+>>>>>>> master
 StylesLib
 none
 false

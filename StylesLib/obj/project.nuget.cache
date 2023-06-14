@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "EkgTh1sWIul1dNUBRugqKF5i1wjtr7z71VqC2wd3ypCrbzcv2cS7PMZRbMN6bD6iB2qTsCsY7j8EHlapn6gl1w==",
+  "dgSpecHash": "nqi8rSrhkaklQcE4kSKVwHVgEcQgMYY0Lq0bV7ivrcnmQIxw1TFu7NypwzpZIfEigmjJyde3CAmjfN2b4+CJNA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj",
+  "projectFilePath": "C:\\Users\\LinQuid\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Ошибка чтения файла кэша C:\\Users\\LinQuid\\source\\repos\\SunClouds\\StylesLib\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
