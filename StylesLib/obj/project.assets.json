@@ -8,24 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Levisto\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\vzr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj",
+      "projectUniqueName": "C:\\Users\\vzr\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj",
       "projectName": "StylesLib",
-      "projectPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj",
-      "packagesPath": "C:\\Users\\Levisto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\StylesLib\\obj\\",
+      "projectPath": "C:\\Users\\vzr\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj",
+      "packagesPath": "C:\\Users\\vzr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vzr\\Source\\Repos\\SunClouds\\StylesLib\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Levisto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\vzr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

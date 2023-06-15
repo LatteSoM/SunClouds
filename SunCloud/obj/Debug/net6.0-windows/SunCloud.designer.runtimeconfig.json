@@ -12,9 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Levisto\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Levisto\\.nuget\\packages",
-      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      "C:\\Users\\vzr\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\vzr\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true

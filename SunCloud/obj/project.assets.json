@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net6.0-windows7.0": {
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -57,6 +73,31 @@
     }
   },
   "libraries": {
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+      "sha512": "8PZKqw9QOcu42xk8puY4P1+EXHL9YGOR9b7qhaYx5cILHul456H073tj99vyPcCt0W0781T9RwHqkx507ZyUpQ==",
+      "type": "package",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.39",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Design/Microsoft.Xaml.Behaviors.Design.dll",
+        "lib/net45/Microsoft.Xaml.Behaviors.dll",
+        "lib/net45/Microsoft.Xaml.Behaviors.pdb",
+        "lib/net45/Microsoft.Xaml.Behaviors.xml",
+        "lib/net5.0-windows7.0/Design/Microsoft.Xaml.Behaviors.DesignTools.dll",
+        "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll",
+        "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.pdb",
+        "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.xml",
+        "lib/netcoreapp3.1/Design/Microsoft.Xaml.Behaviors.DesignTools.dll",
+        "lib/netcoreapp3.1/Microsoft.Xaml.Behaviors.dll",
+        "lib/netcoreapp3.1/Microsoft.Xaml.Behaviors.pdb",
+        "lib/netcoreapp3.1/Microsoft.Xaml.Behaviors.xml",
+        "microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+        "microsoft.xaml.behaviors.wpf.nuspec",
+        "tools/Install.ps1"
+      ]
+    },
     "Newtonsoft.Json/13.0.3": {
       "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
       "type": "package",
@@ -106,29 +147,25 @@
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "CustomControlLib >= 1.0.0",
+      "Microsoft.Xaml.Behaviors.Wpf >= 1.1.39",
       "StylesLib >= 1.0.0",
       "WeatherLib >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Levisto\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\vzr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\SunCloud\\SunCloud.csproj",
+      "projectUniqueName": "C:\\Users\\vzr\\source\\repos\\SunClouds\\SunCloud\\SunCloud.csproj",
       "projectName": "SunCloud",
-      "projectPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\SunCloud\\SunCloud.csproj",
-      "packagesPath": "C:\\Users\\Levisto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\SunCloud\\obj\\",
+      "projectPath": "C:\\Users\\vzr\\source\\repos\\SunClouds\\SunCloud\\SunCloud.csproj",
+      "packagesPath": "C:\\Users\\vzr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vzr\\source\\repos\\SunClouds\\SunCloud\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Levisto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\vzr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -142,14 +179,14 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj": {
-              "projectPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj"
+            "C:\\Users\\vzr\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj": {
+              "projectPath": "C:\\Users\\vzr\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj"
             },
-            "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj": {
-              "projectPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj"
+            "C:\\Users\\vzr\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj": {
+              "projectPath": "C:\\Users\\vzr\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj"
             },
-            "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {
-              "projectPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj"
+            "C:\\Users\\vzr\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {
+              "projectPath": "C:\\Users\\vzr\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj"
             }
           }
         }
@@ -163,6 +200,12 @@
     "frameworks": {
       "net6.0-windows7.0": {
         "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": {
+            "target": "Package",
+            "version": "[1.1.39, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -182,7 +225,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

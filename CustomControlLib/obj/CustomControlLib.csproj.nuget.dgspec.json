@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj": {}
+    "C:\\Users\\vzr\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj": {
+    "C:\\Users\\vzr\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
+        "projectUniqueName": "C:\\Users\\vzr\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
         "projectName": "CustomControlLib",
-        "projectPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
-        "packagesPath": "C:\\Users\\Levisto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\CustomControlLib\\obj\\",
+        "projectPath": "C:\\Users\\vzr\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
+        "packagesPath": "C:\\Users\\vzr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vzr\\source\\repos\\SunClouds\\CustomControlLib\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Levisto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\vzr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

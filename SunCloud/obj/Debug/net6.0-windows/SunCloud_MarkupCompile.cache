@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Levisto\Source\Repos\SunClouds\SunCloud\obj\Debug\net6.0-windows\
+C:\Users\vzr\source\repos\SunClouds\SunCloud\obj\Debug\net6.0-windows\
 SunCloud
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\Levisto\Source\Repos\SunClouds\SunCloud\App.xaml
+C:\Users\vzr\source\repos\SunClouds\SunCloud\App.xaml
 7-1939505592
 
-91599786528
-198-2095706522
+11-1197626228
+199-415339764
 View\Pages\SettingsPage.xaml;View\Pages\WeatherPage.xaml;View\Resources\DayTheme.xaml;View\Resources\MorningEveningTheme.xaml;View\Resources\NightTheme.xaml;View\Windows\MainWindow.xaml;View\Windows\PrimaryWindow.xaml;
 
 False
