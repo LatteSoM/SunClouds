@@ -5,7 +5,7 @@
     <!-- ###### СТИЛИ КНОПОК ВЕРХНЕЙ ПАНЕЛИ ОКНА ######-->
 
     <!-- Стиль кнопки закрытия окна -->
-    <Style x:Key="CloseWindowBtn" TargetType="Button">
+    <Style x:Key="CloseWindowBtnDay" TargetType="Button">
         <Setter Property="Foreground" Value="#ffffff"/>
         <Setter Property="Background">
             <Setter.Value>
@@ -16,7 +16,7 @@
         <Setter Property="Margin" Value="2px"/>
     </Style>
     <!-- Стиль кнопки разворачивания окна на весь экран-->
-    <Style x:Key="MaximizeWindowBtn" TargetType="Button">
+    <Style x:Key="MaximizeWindowBtnDay" TargetType="Button">
         <Setter Property="Foreground" Value="#ffffff"/>
         <Setter Property="Background">
             <Setter.Value>
@@ -27,7 +27,7 @@
         <Setter Property="Margin" Value="2px"/>
     </Style>
     <!-- Стиль кнопки сворчавания окна -->
-    <Style x:Key="MinimizeWindowBtn" TargetType="Button">
+    <Style x:Key="MinimizeWindowBtnDay" TargetType="Button">
         <Setter Property="Foreground" Value="#ffffff"/>
         <Setter Property="Background">
             <Setter.Value>
@@ -43,7 +43,7 @@
     <!-- ########### СТИЛИ ДЛЯ MainWindow ###########-->
 
     <!-- стиль для текстблока названия приложухи-->
-    <Style x:Key="MainWindowCurrCityTb" TargetType="TextBlock">
+    <Style x:Key="MainWindowCurrCityTbDay" TargetType="TextBlock">
         <Setter Property="Foreground" Value="#ffffff"/>
         <Setter Property="FontFamily" Value="/view/resources/fonts/#Jura Regular"/>
         <Setter Property="FontSize" Value="25"/>
@@ -54,7 +54,7 @@
     </Style>
 
     <!--Стиль для текстбокса с вводом города-->
-    <Style x:Key="CurrCityTbx" TargetType="TextBox">
+    <Style x:Key="CurrCityTbxDay" TargetType="TextBox">
         <Setter Property="Background" Value="#87B6CA"/>
         <Setter Property="Opacity" Value="0.5"/>
         <Setter Property="Foreground" Value="#ffffff"/>
@@ -67,7 +67,7 @@
     </Style>
 
     <!--Стиль для кнопки Узнать погоду -->
-    <Style x:Key="WhatWeatherBtn" TargetType="Button">
+    <Style x:Key="WhatWeatherBtnDay" TargetType="Button">
         <Setter Property="Foreground" Value="#ffffff"/>
         <Setter Property="Background">
             <Setter.Value>
@@ -78,7 +78,7 @@
         <Setter Property="Margin" Value="18px 0px 18px 0"/>
     </Style>
     <!--Стиль лейбла внутри кнопки Узнать погоду-->
-    <Style x:Key="WhatWeatherBtnLabel" TargetType="Label">
+    <Style x:Key="WhatWeatherBtnLabelDay" TargetType="Label">
         <Setter Property="Foreground" Value="#ffffff"/>
         <Setter Property="FontFamily" Value="/view/resources/fonts/#Jura Regular"/>
         <Setter Property="FontSize" Value="14"/>
@@ -95,7 +95,7 @@
     </Style>
 
     <!--Стиль кнопок погода и найстроки-->
-    <Style x:Key="ChangePageBtn" TargetType="Button">
+    <Style x:Key="ChangePageBtnDay" TargetType="Button">
         <Setter Property="Foreground" Value="#ffffff"/>
         <Setter Property="Background">
             <Setter.Value>
@@ -142,23 +142,17 @@
     </ControlTemplate>
 
     <!--Стиль лейблов внутри кнопок погода и найстроки-->
-    <Style x:Key="ChangePageBtnLabel" TargetType="Label">
+    <Style x:Key="ChangePageBtnLabelDay" TargetType="Label">
         <Setter Property="Foreground" Value="#ffffff"/>
         <Setter Property="FontFamily" Value="/view/resources/fonts/#Jura Regular"/>
         <Setter Property="FontSize" Value="35"/>
         <Setter Property="VerticalAlignment" Value="Stretch"/>
     </Style>
     <!--Стиль текстблока с выбранным сейчас городом в левой колонке-->
-    <Style x:Key="CurrCityTb" TargetType="TextBlock">
+    <Style x:Key="CurrCityTbDay" TargetType="TextBlock">
         <Setter Property="Foreground" Value="#3D95B9"/>
         <Setter Property="FontFamily" Value="/view/resources/fonts/#Jura Regular"/>
         <Setter Property="FontSize" Value="35"/>
     </Style>
-
-
-
-
-
-
 
 </ResourceDictionary>
