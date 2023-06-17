@@ -9,7 +9,6 @@
       d:DesignHeight="536" d:DesignWidth="962"
       
       Title="SettingsPage">
-
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -22,31 +21,32 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width=".2*" MinWidth="0"/>
+            <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
 
         <TextBlock Grid.Row="0"
                    Style="{DynamicResource MainWindowCurrCityTb}" 
-                   Text="Ваш Основной гоород:" FontSize="28" 
-                   Grid.ColumnSpan="2"
+                   Text="Ваш основной город:" FontSize="28" 
+                   Grid.ColumnSpan="5"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"/>
 
-        <cards:CustomTbx Grid.ColumnSpan="2" Grid.Row="1"
+        <cards:CustomTbx Grid.ColumnSpan="3" Grid.Row="1"
                          VerticalAlignment="Center" HorizontalAlignment="Stretch"
-                         Margin="20 0 20 0"/>
+                         Margin="20 0 20 0" Height="28"/>
 
         <TextBlock Grid.Row="2"
                    Style="{DynamicResource MainWindowCurrCityTb}" 
                    Text="Избранные города:" FontSize="28" 
-                   Grid.ColumnSpan="2"
+                   Grid.ColumnSpan="3"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"/>
 
-        <Rectangle Grid.ColumnSpan="2" Grid.Row="3"
+        <Rectangle Grid.ColumnSpan="3" Grid.Row="3"
                    Grid.RowSpan="1" Fill="#FFFFD4C5"
-                   Opacity="0.7" Margin="20 0 20 0">
+                   Opacity="0.7" Margin="20 20 20 20">
             <Rectangle.BitmapEffect>
                 <DropShadowBitmapEffect 
                     Direction="270" Opacity="0.25" 
@@ -54,7 +54,7 @@
             </Rectangle.BitmapEffect>
         </Rectangle>
 
-        <ItemsControl Grid.ColumnSpan="2" Grid.Row="3" Margin="20 0 20 0">
+        <ItemsControl Grid.ColumnSpan="3" Grid.Row="3" Margin="20 0 20 0">
             <ItemsControl.ItemsPanel>
                 <ItemsPanelTemplate>
                     <WrapPanel/>
@@ -63,34 +63,41 @@
         </ItemsControl>
 
 
+        <Grid Grid.Row="4" Grid.ColumnSpan="3" Margin="20 0 20 0">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="7*"/>
+                <ColumnDefinition Width="1*" MinWidth="110"/>
+            </Grid.ColumnDefinitions>
+            <cards:CustomTbx HorizontalAlignment="Stretch"
+                         Height="28"
+                         Grid.Row="0" Grid.ColumnSpan="1"
+                         />
 
-        <cards:CustomTbx HorizontalAlignment="Left" 
-                         Height="25" Width="814"
-                         Grid.Row="4" Grid.ColumnSpan="2"
-                         Margin="20 0 20 0"/>
-
-        <Button Style="{DynamicResource WhatWeatherBtn}" Grid.Row="4" 
-                Grid.ColumnSpan="2" HorizontalAlignment="Right" Height="25"
-                Margin="20 0 20 0"
+            <Button Style="{DynamicResource WhatWeatherBtn}" Grid.Row="0" Margin="0 0 0 0"
+                Grid.Column="1" Grid.ColumnSpan="1" HorizontalAlignment="Center" Height="28"
+                
                 VerticalAlignment="Center">
-            <Label Style="{DynamicResource WhatWeatherBtnLabel}"
+                <Label Style="{DynamicResource WhatWeatherBtnLabel}"
                    VerticalAlignment="Center"
                        Content="Выбрать город" HorizontalAlignment="Stretch" />
-        </Button>
-
+            </Button>
+        </Grid>
         <TextBlock Grid.Row="5"
                    Style="{DynamicResource MainWindowCurrCityTb}" 
                    Text="Исчисление градусов:" FontSize="28" 
-                   Grid.ColumnSpan="2"
+                   Grid.ColumnSpan="3"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center"/>
 
-        <cards:GraduceBtn Grid.Row="6" Width="226" Grid.Column="0"/>
-        <cards:GraduceBtn Grid.Row="6" Width="226" Grid.Column="1"/>
-        
+        <cards:GraduceBtn Grid.Row="6" Width="auto" Height="25" Grid.Column="0" HorizontalAlignment="Right" Margin="0 0 0 0" />
+        <cards:GraduceFarenBtn Grid.Row="6" Width="auto" Height="25" Grid.Column="2" HorizontalAlignment="Left" Margin="0 0 0 0"/>
+
 
         <Button Style="{DynamicResource WhatWeatherBtn}" Grid.Row="7" 
-                Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Height="25"
+                Grid.ColumnSpan="3" HorizontalAlignment="Stretch" Height="30"
                 Margin="20 0 20 0"
                 VerticalAlignment="Center">
             <Label Style="{DynamicResource WhatWeatherBtnLabel}"
@@ -98,4 +105,5 @@
                        Content="Выбрать город" HorizontalAlignment="Stretch" />
         </Button>
     </Grid>
+
 </Page>

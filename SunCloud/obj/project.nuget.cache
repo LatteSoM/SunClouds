@@ -1,11 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "L0INirOTZosJGKkQ0tW3D9vTbd1EzYFONF/QWV5uWDN6Y+9Li8WOcRH1Cxmb30ibnlPsmGEEBaeP3xdJHSP9zQ==",
+  "dgSpecHash": "KHsajst8WUmgtSLZoEJGdwzIm06vsMPUeZBqOe3krPU7WohDDnHg2egjrroxoYHo4QRoxW/JZ1RtOvUCjkU4og==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vzr\\source\\repos\\SunClouds\\SunCloud\\SunCloud.csproj",
+  "projectFilePath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\SunCloud\\SunCloud.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\vzr\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
-    "C:\\Users\\vzr\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\KritZ\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\KritZ\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Ошибка чтения файла кэша C:\\Users\\KritZ\\source\\repos\\SunClouds\\SunCloud\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
