@@ -4,8 +4,14 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SunCloud"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
         mc:Ignorable="d"
-        Title="MainWindow" MinHeight="158" MinWidth="206" Height="420" Width="666" WindowStyle="None" ResizeMode="CanResizeWithGrip" Background="{x:Null}" AllowsTransparency="True" MouseLeftButtonDown="DragWindow">
+        Title="MainWindow" MinHeight="158" MinWidth="206" Height="420" Width="666" WindowStyle="None" ResizeMode="CanResizeWithGrip" Background="{x:Null}" AllowsTransparency="True">
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="MouseLeftButtonDown">
+            <i:InvokeCommandAction Command="{Binding dragComm}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
     <Border CornerRadius="0" Background="white" BorderBrush="white" BorderThickness="0.3" >
         <Grid>
             <Grid.ColumnDefinitions>
@@ -27,18 +33,15 @@
                 </Rectangle.BitmapEffect>
             </Rectangle>
 
-
-
-
             <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Right" Margin="0 5 5 0">
-                <Button MinHeight="15px" MaxHeight="20px" MinWidth="20px" MaxWidth="20px" Style="{DynamicResource MinimizeWindowBtn}" x:Name="MinimizeWindowBtn" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch">
-                    <Image Source="/view/resources/images/MinimizeBtn.png" MouseLeftButtonDown="MinimizeWindow"/>
+                <Button MinHeight="15px" MaxHeight="20px" MinWidth="20px" MaxWidth="20px" Style="{DynamicResource MinimizeWindowBtn}" x:Name="MinimizeWindowBtn" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" Command="{Binding minimizeComm}">
+                    <Image Source="/view/resources/images/MinimizeBtn.png"/>
                 </Button>
-                <Button MinHeight="15px" MaxHeight="20px" MinWidth="20px" MaxWidth="20px" Width="20px" Style="{DynamicResource MaximizeWindowBtn}" x:Name="MaximizeWindowBtn" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch">
-                    <Image Source="/view/resources/images/MaximizeBtn.png" MouseLeftButtonDown="MaximizeWindow"/>
+                <Button MinHeight="15px" MaxHeight="20px" MinWidth="20px" MaxWidth="20px" Width="20px" Style="{DynamicResource MaximizeWindowBtn}" x:Name="MaximizeWindowBtn" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" Command="{Binding maximizeComm}">
+                    <Image Source="/view/resources/images/MaximizeBtn.png"/>
                 </Button>
-                <Button MinHeight="15px" MaxHeight="20px" MinWidth="20px" MaxWidth="20px" Width="20px" Style="{DynamicResource CloseWindowBtn}" x:Name="CloseWindowBtn" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch">
-                    <Image Source="/view/resources/images/CloseBtn.png" MouseLeftButtonDown="CloseWindow"/>
+                <Button MinHeight="15px" MaxHeight="20px" MinWidth="20px" MaxWidth="20px" Width="20px" Style="{DynamicResource CloseWindowBtn}" x:Name="CloseWindowBtn" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" Command="{Binding closeComm}">
+                    <Image Source="/view/resources/images/CloseBtn.png"/>
                 </Button>
             </StackPanel>
 
@@ -61,16 +64,31 @@
                 </Separator>
 
                 <TextBox Grid.Row="2" x:Name="CurrCityTbx" Style="{DynamicResource CurrCityTbx}">
-                    <TextBox.Text>
+                    <!--<TextBox.Text>
                         <Binding Path="CityName">
                             <Binding.ValidationRules>
                                 <ExceptionValidationRule />
                             </Binding.ValidationRules>
                         </Binding>
                     </TextBox.Text>
+                </TextBox>-->
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="GotFocus">
+                            <i:InvokeCommandAction Command="{Binding gotFocusComm}"/>
+                        </i:EventTrigger>
+                        <i:EventTrigger EventName="LostFocus">
+                            <i:InvokeCommandAction Command="{Binding lostFocusComm}"/>
+                        </i:EventTrigger>
+                        <i:EventTrigger EventName="TextChanged">
+                            <i:InvokeCommandAction Command="{Binding textChangedComm}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
                 </TextBox>
+                <Button MinHeight="15px" Grid.Row="2" MaxHeight="20px" MinWidth="20px" MaxWidth="20px" Width="20px" x:Name="BtnClearTextBox" Style="{DynamicResource CloseWindowBtn}" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" Command="{Binding clearComm}" HorizontalAlignment="Right" Margin="2,2,25,2">
+                    <Image Source="/view/resources/images/CloseBtnWhite.png" Opacity="0.6"/>
+                </Button>
 
-                <Button Grid.Row="4" x:Name="WhatWeatherBtn" Style="{DynamicResource WhatWeatherBtn}" Click="WhatWeatherBtn_Click">
+                <Button Grid.Row="4" x:Name="WhatWeatherBtn" Style="{DynamicResource WhatWeatherBtn}" Command="{Binding whatCurrWeatherComm}">
                     <Label Style="{DynamicResource WhatWeatherBtnLabel}" Content="Узнать погоду" HorizontalAlignment="Center"/>
                 </Button>
             </Grid>

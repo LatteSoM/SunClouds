@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
+      "projectUniqueName": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
       "projectName": "CustomControlLib",
-      "projectPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
+      "projectPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
       "packagesPath": "C:\\Users\\KritZ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\CustomControlLib\\obj\\",
+      "outputPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\CustomControlLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Software\\Utilities\\MicrosoftVisualStudio\\Shared\\NuGetPackages"
@@ -72,5 +72,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Ошибка чтения файла кэша C:\\Users\\KritZ\\source\\repos\\SunClouds\\CustomControlLib\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

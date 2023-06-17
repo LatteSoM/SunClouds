@@ -4,8 +4,14 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SunCloud.View.Windows"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
         mc:Ignorable="d"
-        Title="PrimaryWindow" MinHeight="274" MinWidth="353" Height="703" Width="1203" WindowStyle="None" ResizeMode="CanResizeWithGrip" AllowsTransparency="True" MouseLeftButtonDown="DragWindow">
+        Title="PrimaryWindow" MinHeight="274" MinWidth="438" Height="703" Width="1203" WindowStyle="None" ResizeMode="CanResizeWithGrip" AllowsTransparency="True">
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="MouseLeftButtonDown">
+            <i:InvokeCommandAction Command="{Binding dragComm}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" MinWidth="353"/>
@@ -21,15 +27,15 @@
 
         <Image Style="{DynamicResource DayWindowBackground}" Grid.RowSpan="4" Grid.ColumnSpan="3" />
 
-        <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Right" Margin="0 5 5 0" MinWidth="0">
-            <Button MinHeight="15px" MaxHeight="20px" MinWidth="20px" MaxWidth="20px" Style="{DynamicResource MinimizeWindowBtn}" x:Name="MinimizeWindowBtn" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch">
-                <Image Source="/view/resources/images/MinimizeBtn.png" MouseLeftButtonDown="MinimizeWindow"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Right" Margin="0 5 5 0">
+            <Button MinHeight="15px" MaxHeight="20px" MinWidth="20px" MaxWidth="20px" Style="{DynamicResource MinimizeWindowBtn}" x:Name="MinimizeWindowBtn" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" Command="{Binding minimizeComm}">
+                <Image Source="/view/resources/images/MinimizeBtn.png"/>
             </Button>
-            <Button MinHeight="15px" MaxHeight="20px" MinWidth="20px" MaxWidth="20px" Width="20px" Style="{DynamicResource MaximizeWindowBtn}" x:Name="MaximizeWindowBtn" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch">
-                <Image Source="/view/resources/images/MaximizeBtn.png" MouseLeftButtonDown="MaximizeWindow"/>
+            <Button MinHeight="15px" MaxHeight="20px" MinWidth="20px" MaxWidth="20px" Width="20px" Style="{DynamicResource MaximizeWindowBtn}" x:Name="MaximizeWindowBtn" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" Command="{Binding maximizeComm}">
+                <Image Source="/view/resources/images/MaximizeBtn.png"/>
             </Button>
-            <Button MinHeight="15px" MaxHeight="20px" MinWidth="20px" MaxWidth="20px" Width="20px" Style="{DynamicResource CloseWindowBtn}" x:Name="CloseWindowBtn" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch">
-                <Image Source="/view/resources/images/CloseBtn.png" MouseLeftButtonDown="CloseWindow"/>
+            <Button MinHeight="15px" MaxHeight="20px" MinWidth="20px" MaxWidth="20px" Width="20px" Style="{DynamicResource CloseWindowBtn}" x:Name="CloseWindowBtn" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" Command="{Binding closeComm}">
+                <Image Source="/view/resources/images/CloseBtn.png"/>
             </Button>
         </StackPanel>
 
@@ -38,7 +44,6 @@
                 <DropShadowBitmapEffect Direction="0" Opacity="0.25" ShadowDepth="2" Softness="0.5"/>
             </Rectangle.BitmapEffect>
         </Rectangle>
-
         <TextBlock x:Name="CurrentCityTb" Style="{DynamicResource CurrCityTb}" Text="Москва" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Normal" Grid.Row="1" Grid.Column="0"/>
         <Separator Grid.Row="1" Grid.Column="0" Margin="18 0 18 0" Height="1px" Background="#3D95B9" Opacity=".5" VerticalAlignment="Bottom" >
             <Separator.RenderTransform>

@@ -177,6 +177,12 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Microsoft.Xaml.Behaviors.Wpf": {
+              "target": "Package",
+              "version": "[1.1.39, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -207,7 +213,7 @@
         "projectName": "WeatherLib",
         "projectPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
         "packagesPath": "C:\\Users\\KritZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KritZ\\Source\\Repos\\SunClouds\\WeatherLib\\obj\\",
+        "outputPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\WeatherLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Software\\Utilities\\MicrosoftVisualStudio\\Shared\\NuGetPackages"
@@ -239,6 +245,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

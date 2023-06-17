@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "BfE4CJqQ1kPAl4cI/PVjrZXqwIxcGdMMcdJ0J6Lnf27vCzJ9pyUvc0la/WtI7l0Wxa8lTA/6fP8WDKrCyBysUA==",
+  "dgSpecHash": "A7OPosi5W54o21uRBD3gHaK/ljKl/BSroabBAFrFpgif4fxnouLPr/iZQlLOj22Qnp1St0gxFZeX6tqDgCl2BQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\KritZ\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Ошибка чтения файла кэша C:\\Users\\KritZ\\source\\repos\\SunClouds\\WeatherLib\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
