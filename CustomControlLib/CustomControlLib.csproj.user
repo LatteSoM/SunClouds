@@ -8,11 +8,7 @@
     <Compile Update="GraduceBtn.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-<<<<<<< HEAD
-    <Compile Update="GraduceFarenBtn.xaml.cs">
-=======
     <Compile Update="WeatherCard.xaml.cs">
->>>>>>> c2880a1c1d4f8aee741a3f0dc91286848741450b
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -21,9 +17,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="GraduceBtn.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="GraduceFarenBtn.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserControl1.xaml">

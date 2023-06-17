@@ -8,24 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\KritZ\\.nuget\\packages\\": {},
-    "D:\\Software\\Utilities\\MicrosoftVisualStudio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\sakura\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj",
+      "projectUniqueName": "C:\\Users\\sakura\\source\\repos\\SunClouds1\\StylesLib\\StylesLib.csproj",
       "projectName": "StylesLib",
-      "projectPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj",
-      "packagesPath": "C:\\Users\\KritZ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\obj\\",
+      "projectPath": "C:\\Users\\sakura\\source\\repos\\SunClouds1\\StylesLib\\StylesLib.csproj",
+      "packagesPath": "C:\\Users\\sakura\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sakura\\source\\repos\\SunClouds1\\StylesLib\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Software\\Utilities\\MicrosoftVisualStudio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\KritZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\sakura\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,16 +64,8 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Ошибка чтения файла кэша C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
