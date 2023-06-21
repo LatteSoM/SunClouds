@@ -27,7 +27,7 @@
         </Grid.ColumnDefinitions>
 
         <TextBlock Grid.Row="0"
-                   Style="{DynamicResource MainWindowCurrCityTb}" 
+                   Style="{Binding MainWindowCurrCityTbStyleKey}" 
                    Text="Ваш основной город:" FontSize="28" 
                    Grid.ColumnSpan="5"
                    VerticalAlignment="Center"
@@ -38,7 +38,7 @@
                          Margin="20 0 20 0" Height="28"/>
 
         <TextBlock Grid.Row="2"
-                   Style="{DynamicResource MainWindowCurrCityTb}" 
+                   Style="{Binding MainWindowCurrCityTbStyleKey}" 
                    Text="Избранные города:" FontSize="28" 
                    Grid.ColumnSpan="3"
                    VerticalAlignment="Center"
@@ -76,17 +76,17 @@
                          Grid.Row="0" Grid.ColumnSpan="1"
                          />
 
-            <Button Style="{DynamicResource WhatWeatherBtn}" Grid.Row="0" Margin="0 0 0 0"
+            <Button Style="{Binding WhatWeatherBtnStyleKey}" Grid.Row="0" Margin="0 0 0 0"
                 Grid.Column="1" Grid.ColumnSpan="1" HorizontalAlignment="Center" Height="28"
                 
                 VerticalAlignment="Center">
-                <Label Style="{DynamicResource WhatWeatherBtnLabel}"
+                <Label Style="{Binding WhatWeatherBtnLabelStyleKey}"
                    VerticalAlignment="Center"
                        Content="Выбрать город" HorizontalAlignment="Stretch" />
             </Button>
         </Grid>
         <TextBlock Grid.Row="5"
-                   Style="{DynamicResource MainWindowCurrCityTb}" 
+                   Style="{Binding MainWindowCurrCityTbStyleKey}" 
                    Text="Исчисление градусов:" FontSize="28" 
                    Grid.ColumnSpan="3"
                    VerticalAlignment="Center"
@@ -96,11 +96,11 @@
         <cards:GraduceFarenBtn Grid.Row="6" Width="auto" Height="25" Grid.Column="2" HorizontalAlignment="Left" Margin="0 0 0 0"/>
 
 
-        <Button Style="{DynamicResource WhatWeatherBtn}" Grid.Row="7" 
+        <Button Style="{Binding WhatWeatherBtnStyleKey}" Grid.Row="7" 
                 Grid.ColumnSpan="3" HorizontalAlignment="Stretch" Height="30"
                 Margin="20 0 20 0"
                 VerticalAlignment="Center">
-            <Label Style="{DynamicResource WhatWeatherBtnLabel}"
+            <Label Style="{Binding WhatWeatherBtnLabelStyleKey}"
                    VerticalAlignment="Center"
                        Content="Выбрать город" HorizontalAlignment="Stretch" />
         </Button>

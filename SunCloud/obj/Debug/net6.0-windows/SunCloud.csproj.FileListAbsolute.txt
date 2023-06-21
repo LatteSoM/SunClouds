@@ -305,3 +305,4 @@ C:\Users\sakura\source\repos\SunClouds1\SunCloud\obj\Debug\net6.0-windows\refint
 C:\Users\sakura\source\repos\SunClouds1\SunCloud\obj\Debug\net6.0-windows\SunCloud.pdb
 C:\Users\sakura\source\repos\SunClouds1\SunCloud\obj\Debug\net6.0-windows\SunCloud.genruntimeconfig.cache
 C:\Users\sakura\source\repos\SunClouds1\SunCloud\obj\Debug\net6.0-windows\ref\SunCloud.dll
+C:\Users\Levisto\Source\Repos\SunClouds\SunCloud\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sakura\\source\\repos\\SunClouds1\\WeatherLib\\WeatherLib.csproj": {}
+    "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sakura\\source\\repos\\SunClouds1\\WeatherLib\\WeatherLib.csproj": {
+    "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sakura\\source\\repos\\SunClouds1\\WeatherLib\\WeatherLib.csproj",
+        "projectUniqueName": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
         "projectName": "WeatherLib",
-        "projectPath": "C:\\Users\\sakura\\source\\repos\\SunClouds1\\WeatherLib\\WeatherLib.csproj",
-        "packagesPath": "C:\\Users\\sakura\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sakura\\source\\repos\\SunClouds1\\WeatherLib\\obj\\",
+        "projectPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
+        "packagesPath": "C:\\Users\\Levisto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\WeatherLib\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sakura\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Levisto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -8,17 +8,133 @@ using System.Threading.Tasks;
 using System.Windows;
 using SunCloud.ViewModel.HelpTools;
 using SunCloud.View.Windows;
+using SunCloud.ViewModel.HelpTools;
+using SunCloud.View.Windows;
+using System;
+using System.Windows.Controls;
+using System.Windows.Input;
+using System.Windows.Media;
+using SunCloud.Model;
+using SunCloud.ViewModel.HelpTool;
 
 namespace SunCloud.ViewModel
 {
     internal class PrimaryViewModel : BindingTool
     {
+        private Style _closeWindowBtnStyleKey;
+        private Style _maximizeWindowBtnStyleKey;
+        private Style _minimizeWindowBtnStyleKey;
+        private Style _mainWindowCurrCityTbStyleKey;
+        private Style _currCityTbxStyleKey;
+        private Style _whatWeatherBtnStyleKey;
+        private Style _whatWeatherBtnLabelStyleKey;
+        private Style _windowBackgroundStyleKey;
+        private Style _changePageBtnStyleKey;
+        private Theme _currentTheme;
+        private Style _currCityTbStyleKey;
+        private readonly ThemeService _themeService;
+        public Style CloseWindowBtnStyleKey
+        {
+            get { return _closeWindowBtnStyleKey; }
+            set
+            {
+                _closeWindowBtnStyleKey = value;
+                onPropertyChanged(nameof(CloseWindowBtnStyleKey));
+            }
+        }
+        public Style MaximizeWindowBtnStyleKey
+        {
+            get { return _maximizeWindowBtnStyleKey; }
+            set
+            {
+                _maximizeWindowBtnStyleKey = value;
+                onPropertyChanged(nameof(MaximizeWindowBtnStyleKey));
+            }
+        }
+        public Style MinimizeWindowBtnStyleKey
+        {
+            get { return _minimizeWindowBtnStyleKey; }
+            set
+            {
+                _minimizeWindowBtnStyleKey = value;
+                onPropertyChanged(nameof(MinimizeWindowBtnStyleKey));
+            }
+        }
+
+        public Style MainWindowCurrCityTbStyleKey
+        {
+            get { return _mainWindowCurrCityTbStyleKey; }
+            set
+            {
+                _mainWindowCurrCityTbStyleKey = value;
+                onPropertyChanged(nameof(MainWindowCurrCityTbStyleKey));
+            }
+        }
+        public Style CurrCityTbxStyleKey
+        {
+            get { return _currCityTbxStyleKey; }
+            set
+            {
+                _currCityTbxStyleKey = value;
+                onPropertyChanged(nameof(CurrCityTbxStyleKey));
+            }
+        }
+        public Style WhatWeatherBtnStyleKey
+        {
+            get { return _whatWeatherBtnStyleKey; }
+            set
+            {
+                _whatWeatherBtnStyleKey = value;
+                onPropertyChanged(nameof(WhatWeatherBtnStyleKey));
+            }
+        }
+        public Style WhatWeatherBtnLabelStyleKey
+        {
+            get { return _whatWeatherBtnLabelStyleKey; }
+            set
+            {
+                _whatWeatherBtnLabelStyleKey = value;
+                onPropertyChanged(nameof(WhatWeatherBtnLabelStyleKey));
+            }
+        }
+        public Style WindowBackgroundStyleKey
+        {
+            get { return _windowBackgroundStyleKey; }
+            set
+            {
+                _windowBackgroundStyleKey = value;
+                onPropertyChanged(nameof(WindowBackgroundStyleKey));
+            }
+        }
+        public Style ChangePageBtnStyleKey
+        {
+            get { return _changePageBtnStyleKey; }
+            set
+            {
+                _changePageBtnStyleKey = value;
+                onPropertyChanged(nameof(ChangePageBtnStyleKey));
+            }
+        }
+        public Style CurrCityTbStyleKey
+        {
+            get { return _currCityTbStyleKey; }
+            set
+            {
+                _currCityTbStyleKey = value;
+                onPropertyChanged(nameof(CurrCityTbStyleKey));
+            }
+        }
         public PrimaryViewModel() 
         {
             dragComm = new BindableCommand(_ => DragWindow());
             closeComm = new BindableCommand(_ => CloseWindow());
             maximizeComm = new BindableCommand(_ => MaximizeWindow());
             minimizeComm = new BindableCommand(_ => MinimizeWindow());
+
+            _themeService = new ThemeService();
+            _themeService.ThemeChanged += OnThemeChanged;
+            _currentTheme = _themeService.GetCurrentTheme();
+            SetThemeProperties();
         }
 
         public BindableCommand dragComm { get; set; }
@@ -88,5 +204,28 @@ namespace SunCloud.ViewModel
                 //throw;
             }
         }
+
+        private void SetThemeProperties()
+        {
+            /* Применение изменений темы */
+            CloseWindowBtnStyleKey = _currentTheme.CloseWindowBtnStyleKey;
+            MaximizeWindowBtnStyleKey = _currentTheme.MaximizeWindowBtnStyleKey;
+            MinimizeWindowBtnStyleKey = _currentTheme.MinimizeWindowBtnStyleKey;
+            MainWindowCurrCityTbStyleKey = _currentTheme.MainWindowCurrCityTbStyleKey;
+            CurrCityTbxStyleKey = _currentTheme.CurrCityTbxStyleKey;
+            WhatWeatherBtnStyleKey = _currentTheme.WhatWeatherBtnStyleKey;
+            WhatWeatherBtnLabelStyleKey = _currentTheme.WhatWeatherBtnLabelStyleKey;
+            WindowBackgroundStyleKey = _currentTheme.WindowBackgroundStyleKey;
+            ChangePageBtnStyleKey = _currentTheme.ChangePageBtnStyleKey;
+            CurrCityTbStyleKey = _currentTheme.CurrCityTbStyleKey;
+        }
+
+        private void OnThemeChanged(object sender, EventArgs e)
+        {
+            /* Изменение темы */
+            _currentTheme = _themeService.GetCurrentTheme();
+            SetThemeProperties();
+        }
+
     }
 }
