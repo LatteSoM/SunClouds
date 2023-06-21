@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FvRg5j9ntqPPaGREl8P793jufaqm6dnAzK0nx6D7D0eHXC6O1zVAI6JYJT3kZKxaENR5WBE3QefMSikG8qp/yQ==",
+  "dgSpecHash": "RlWyD0gigbdtogBmOQ+mm1gr/5Y72xJZ2ofFucLWCVOQTjx5gGeVL9CHKaQ5EgxHbr4pkT1fEULKDgKJz6Xdzg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sakura\\source\\repos\\SunClouds1\\WeatherLib\\WeatherLib.csproj",
+  "projectFilePath": "C:\\Users\\Levisto\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\sakura\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\Levisto\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

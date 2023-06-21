@@ -9,12 +9,98 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows;
 using SunCloud.ViewModel.HelpTools;
+using SunCloud.Model;
+using SunCloud.ViewModel.HelpTool;
 
 namespace SunCloud.ViewModel
 {
     internal class MainViewModel : BindingTool
     {
         private string _Foreground;
+
+        private Style _closeWindowBtnStyleKey;
+        private Style _maximizeWindowBtnStyleKey;
+        private Style _minimizeWindowBtnStyleKey;
+        private Style _mainWindowCurrCityTbStyleKey;
+        private Style _currCityTbxStyleKey;
+        private Style _whatWeatherBtnStyleKey;
+        private Style _whatWeatherBtnLabelStyleKey;
+        private Style _windowBackgroundStyleKey;
+        private Theme _currentTheme;
+        private readonly ThemeService _themeService;
+        public Style CloseWindowBtnStyleKey
+        {
+            get { return _closeWindowBtnStyleKey; }
+            set
+            {
+                _closeWindowBtnStyleKey = value;
+                onPropertyChanged(nameof(CloseWindowBtnStyleKey));
+            }
+        }
+        public Style MaximizeWindowBtnStyleKey
+        {
+            get { return _maximizeWindowBtnStyleKey; }
+            set
+            {
+                _maximizeWindowBtnStyleKey = value;
+                onPropertyChanged(nameof(MaximizeWindowBtnStyleKey));
+            }
+        }
+        public Style MinimizeWindowBtnStyleKey
+        {
+            get { return _minimizeWindowBtnStyleKey; }
+            set
+            {
+                _minimizeWindowBtnStyleKey = value;
+                onPropertyChanged(nameof(MinimizeWindowBtnStyleKey));
+            }
+        }
+
+        public Style MainWindowCurrCityTbStyleKey
+        {
+            get { return _mainWindowCurrCityTbStyleKey; }
+            set
+            {
+                _mainWindowCurrCityTbStyleKey = value;
+                onPropertyChanged(nameof(MainWindowCurrCityTbStyleKey));
+            }
+        }
+        public Style CurrCityTbxStyleKey
+        {
+            get { return _currCityTbxStyleKey; }
+            set
+            {
+                _currCityTbxStyleKey = value;
+                onPropertyChanged(nameof(CurrCityTbxStyleKey));
+            }
+        }
+        public Style WhatWeatherBtnStyleKey
+        {
+            get { return _whatWeatherBtnStyleKey; }
+            set
+            {
+                _whatWeatherBtnStyleKey = value;
+                onPropertyChanged(nameof(WhatWeatherBtnStyleKey));
+            }
+        }
+        public Style WhatWeatherBtnLabelStyleKey
+        {
+            get { return _whatWeatherBtnLabelStyleKey; }
+            set
+            {
+                _whatWeatherBtnLabelStyleKey = value;
+                onPropertyChanged(nameof(WhatWeatherBtnLabelStyleKey));
+            }
+        }
+        public Style WindowBackgroundStyleKey
+        {
+            get { return _windowBackgroundStyleKey; }
+            set
+            {
+                _windowBackgroundStyleKey = value;
+                onPropertyChanged(nameof(WindowBackgroundStyleKey));
+            }
+        }
 
         public string p_Foreground
         {
@@ -67,6 +153,11 @@ namespace SunCloud.ViewModel
             _Text = "Ваш город";
             //CurrCityTbx.GotFocus += CurrCityTbx_GotFocus;
             //CurrCityTbx.LostFocus += CurrCityTbx_LostFocus;
+
+            _themeService = new ThemeService();
+            _themeService.ThemeChanged += OnThemeChanged;
+            _currentTheme = _themeService.GetCurrentTheme();
+            SetThemeProperties();
         }
 
         public BindableCommand closeComm { get; set; }
@@ -94,7 +185,7 @@ namespace SunCloud.ViewModel
         {
             try
             {
-                
+
                 mainWindow.DragMove();
             }
             catch (Exception)
@@ -189,6 +280,26 @@ namespace SunCloud.ViewModel
             // очищаем текстбокс по кнопке
             _Text = string.Empty;
             _visibilityMode = "Collapsed";
+        }
+
+        private void SetThemeProperties()
+        {
+            /* Применение изменений темы */
+            CloseWindowBtnStyleKey = _currentTheme.CloseWindowBtnStyleKey;
+            MaximizeWindowBtnStyleKey = _currentTheme.MaximizeWindowBtnStyleKey;
+            MinimizeWindowBtnStyleKey = _currentTheme.MinimizeWindowBtnStyleKey;
+            MainWindowCurrCityTbStyleKey = _currentTheme.MainWindowCurrCityTbStyleKey;
+            CurrCityTbxStyleKey = _currentTheme.CurrCityTbxStyleKey;
+            WhatWeatherBtnStyleKey = _currentTheme.WhatWeatherBtnStyleKey;
+            WhatWeatherBtnLabelStyleKey = _currentTheme.WhatWeatherBtnLabelStyleKey;
+            WindowBackgroundStyleKey = _currentTheme.WindowBackgroundStyleKey;
+        }
+
+        private void OnThemeChanged(object sender, EventArgs e)
+        {
+            /* Изменение темы */
+            _currentTheme = _themeService.GetCurrentTheme();
+            SetThemeProperties();
         }
     }
 }
