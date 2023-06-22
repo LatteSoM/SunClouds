@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:SunCloud.View.Windows"
         xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
         mc:Ignorable="d"
-        Title="PrimaryWindow" MinHeight="274" MinWidth="438" Height="703" Width="1203" WindowStyle="None" ResizeMode="CanResizeWithGrip" AllowsTransparency="True">
+        FontFamily="/view/resources/fonts/#Jura Regular"
+        Title="PrimaryWindow" MinHeight="274" MinWidth="353" Height="703" Width="1203" WindowStyle="None" ResizeMode="CanResizeWithGrip" AllowsTransparency="True">
     <i:Interaction.Triggers>
         <i:EventTrigger EventName="MouseLeftButtonDown">
             <i:InvokeCommandAction Command="{Binding dragComm}"/>
@@ -66,41 +67,83 @@
         <Button Template="{DynamicResource WeatherSettingsBtnControlTemplate}" x:Name="SettingsPageBtn" Grid.Row="1" Grid.Column="2" Content="Настройки" Style="{Binding ChangePageBtnStyleKey}" HorizontalAlignment="Right" HorizontalContentAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center"/>
 
 
-        <!-- Рассказываю прикол со скроллбаром. При подлючении PresentationFrameworkAero, для растройки стилей ToolBar
-        для плашки со статистикой, стили для ScrollView отваливаются. Если же забить на часть стилей, для которых и нужен
-        PresentationFrameworkAero, то тогда смысла от этих 3ех точек на плашке нет. Короче еще поебёмся -->
-        <ScrollViewer Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Grid.RowSpan="2">
-            <!--<ScrollBar Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Grid.RowSpan="2" Style="{DynamicResource ScrollBarStyle}" Height="600" HorizontalAlignment="Right"/>-->
+       <ScrollViewer Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Grid.RowSpan="2">
             <Grid Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Grid.RowSpan="2" Height="700">
                 <Frame x:Name="WeatherSettingsPageFrame"/>
             </Grid>
         </ScrollViewer>
-        
+
 
 
         <StackPanel Grid.Row="2" Grid.RowSpan="2" Orientation="Vertical">
-            <Image Width="10" Height="500" Margin="0 90 100 0" Source="/view/resources/images/line.png" />
-            <Image Width="100" Height="100" Margin=" 0 -1000 100 0" Source="/view/resources/images/sunny.png">
+            <Image Width="10" Height="500" Margin="0 90 140 0" Source="/view/resources/images/line.png" />
+            <Image Width="100" Height="100" Margin=" 0 -1000 140 0" Source="/view/resources/images/sunny.png">
                 <Image.Effect>
                     <DropShadowEffect Direction="270" ShadowDepth="4" Opacity=".3"/>
                 </Image.Effect>
             </Image>
-            <Image Width="50" Height="50" Margin=" 0 -680 100 0" Source="/view/resources/images/sunny.png">
+            <Image Width="60" Height="60" Margin=" 0 -680 140 0" Source="/view/resources/images/sunny.png">
                 <Image.Effect>
                     <DropShadowEffect Direction="270" ShadowDepth="3" Opacity=".3"/>
                 </Image.Effect>
             </Image>
-            <Image Width="50" Height="50" Margin=" 0 -440 100 0" Source="/view/resources/images/cloudy.png">
+            <Image Width="60" Height="60" Margin=" 0 -440 140 0" Source="/view/resources/images/cloudy.png">
                 <Image.Effect>
                     <DropShadowEffect Direction="270" ShadowDepth="2" Opacity=".3"/>
                 </Image.Effect>
             </Image>
-            <Image Width="50" Height="50" Margin=" 0 -200 100 0" Source="/view/resources/images/rainy.png">
+            <Image Width="60" Height="60" Margin=" 0 -170 140 0" Source="/view/resources/images/rainy.png">
                 <Image.Effect>
                     <DropShadowEffect Direction="270" ShadowDepth="2" Opacity=".3"/>
                 </Image.Effect>
             </Image>
+            <StackPanel Orientation="Vertical" Width="170" Margin="150 -1000 0 0" Height="100" >
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <TextBlock x:Name="NowWeatherSituationTb" Style="{Binding WeatherSituationTbDay}" Text="Ясно" FontSize="22"/>
+                    <TextBlock x:Name="NowRealTemperatureTb" Style="{Binding WeatherSituationTbDay}" Text="21°" FontSize="22"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Right">
+                    <TextBlock Style="{Binding WeatherSituationTbDay}" Text="Ощущается как" FontSize="22" Width="160"/>
+                    <TextBlock x:Name="NowFeelingTemperatureTb" Style="{Binding WeatherSituationTbDay}" Text="25°" FontSize="22" HorizontalAlignment="Right"/>
+                </StackPanel>
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical" Width="200" Margin="150 -670 0 0" Height="50">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock x:Name="OneHourWeatherSituationTb" Style="{Binding WeatherSituationTbDay}" Text="Ясно"/>
+                    <TextBlock x:Name="OneHourRealTemperatureTb" Style="{Binding WeatherSituationTbDay}" Text="21°"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Style="{Binding WeatherSituationTbDay}" Text="Ощущается как"/>
+                    <TextBlock x:Name="OneHourFeelingTemperatureTb" Style="{Binding WeatherSituationTbDay}" Text="25°"/>
+                </StackPanel>
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical" Width="200"  Margin="150 -420 0 0" Height="50">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock x:Name="TwoHourWeatherSituationTb" Style="{Binding WeatherSituationTbDay}" Text="Ясно"/>
+                    <TextBlock x:Name="TwoHourRealTemperatureTb" Style="{Binding WeatherSituationTbDay}" Text="21°"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Style="{Binding WeatherSituationTbDay}" Text="Ощущается как"/>
+                    <TextBlock x:Name="TwoHourFeelingTemperatureTb" Style="{Binding WeatherSituationTbDay}" Text="25°"/>
+                </StackPanel>
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical" Width="200" Margin="150 -180 0 0" Height="50">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock x:Name="ThreeHourWeatherSituationTb" Style="{Binding WeatherSituationTbDay}" Text="Ясно"/>
+                    <TextBlock x:Name="ThreeHourRealTemperatureTb" Style="{Binding WeatherSituationTbDay}" Text="21°"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Style="{Binding WeatherSituationTbDay}" Text="Ощущается как"/>
+                    <TextBlock x:Name="ThreeHourFeelingTemperatureTb" Style="{Binding WeatherSituationTbDay}" Text="25°"/>
+                </StackPanel>
+            </StackPanel>
+            <TextBlock x:Name="OneHourTb" Style="{Binding WeatherSituationTbDay}" Text="16:00" Width="40" Height="20" Margin="-260 -680 0 0"/>
+            <TextBlock x:Name="TwoHourTb" Style="{Binding WeatherSituationTbDay}" Text="17:00" Width="40" Height="20" Margin="-260 -430 0 0"/>
+            <TextBlock x:Name="ThreeHourTb" Style="{Binding WeatherSituationTbDay}" Text="18:00" Width="40" Height="20" Margin="-260 -180 0 0"/>
         </StackPanel>
-        
+
     </Grid>
 </Window>

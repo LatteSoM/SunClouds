@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:SunCloud"
         xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
         mc:Ignorable="d"
+        FontFamily="/view/resources/fonts/#Jura Regular"
         Title="MainWindow" MinHeight="158" MinWidth="206" Height="420" Width="666" WindowStyle="None" ResizeMode="CanResizeWithGrip" Background="{x:Null}" AllowsTransparency="True">
     <i:Interaction.Triggers>
         <i:EventTrigger EventName="MouseLeftButtonDown">

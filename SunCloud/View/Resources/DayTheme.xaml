@@ -156,9 +156,25 @@
         <Setter Property="FontSize" Value="35"/>
     </Style>
 
+    <!--Стиль текстблока с выбранным сейчас городом в левой колонке-->
+    <Style x:Key="CurrCityTbDay" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="#3D95B9"/>
+        <Setter Property="FontFamily" Value="/view/resources/fonts/#Jura Regular"/>
+        <Setter Property="FontSize" Value="35"/>
+    </Style>
+
+    <!-- стиль для текстблоков в левой панели-->
+    <Style x:Key="WeatherSituationTbDay" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="#3D95B9"/>
+        <Setter Property="FontFamily" Value="/view/resources/fonts/#Jura Regular"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="Margin" Value="0px 0 5px 0px"/>
+        <Setter Property="TextAlignment" Value="Center"/>
+    </Style>
+
 
     <!-- ###### СТИЛИ СТРАНИЦ SettingsPage и WeatherPage ######-->
-    
+
     <!-- Стиль для скроллбара -->
     <Style x:Key="ScrollThumbs" TargetType="{x:Type Thumb}">
         <Setter Property="Template">
@@ -181,8 +197,8 @@
             </Setter.Value>
         </Setter>
     </Style>
-    
-    <Style x:Key="ScrollBarStyle" TargetType="{x:Type ScrollBar}">
+
+    <Style x:Key="{x:Type ScrollBar}" TargetType="{x:Type ScrollBar}">
         <Setter Property="Stylus.IsFlicksEnabled" Value="False"/>
         <Setter Property="Foreground" Value="#ffffff"/>
         <Setter Property="Background" Value="Transparent"/>
@@ -231,7 +247,7 @@
         </Setter>
     </Style>
 
-    
+
     <!-- Стиль для ToolBar со статистикой на странице WeatherPage -->
     <SolidColorBrush x:Key="ToolBarButtonHover" Color="#210080FF"/>
     <SolidColorBrush x:Key="ToolBarMenuBorder" Color="Transparent"/>
@@ -265,7 +281,7 @@
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
-        
+
     </Style>
     <Style x:Key="ToolBarHorizontalOverflowButtonStyle" TargetType="{x:Type ToggleButton}">
         <Setter Property="Background" Value="Transparent"/>
@@ -418,7 +434,7 @@
         <Setter Property="FontFamily" Value="/view/resources/fonts/#Jura Regular"/>
         <Setter Property="FontSize" Value="64"/>
     </Style>
-    
+
     <!-- Стиль для текстблоков параметров в плашке статистики -->
 
     <Style x:Key="ToolBarElementTbDay" TargetType="TextBlock">

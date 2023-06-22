@@ -25,7 +25,7 @@ namespace SunCloud.View.Windows
         {
             InitializeComponent();
             DataContext = new PrimaryViewModel();
-            //WeatherSettingsPageFrame.Content = new SettingsPage();
+            //WeatherSettingsPageFrame.Content = new WeatherPage();
         }
     }
 }
