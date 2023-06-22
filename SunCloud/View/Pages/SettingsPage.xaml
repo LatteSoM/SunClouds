@@ -7,7 +7,7 @@
       xmlns:local="clr-namespace:SunCloud.View.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="536" d:DesignWidth="962"
-      
+      FontFamily="/view/resources/fonts/#Jura Regular"
       Title="SettingsPage">
     <Grid>
         <Grid.RowDefinitions>

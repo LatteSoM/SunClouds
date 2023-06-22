@@ -124,6 +124,7 @@ namespace SunCloud.ViewModel
                 onPropertyChanged(nameof(CurrCityTbStyleKey));
             }
         }
+
         public PrimaryViewModel() 
         {
             dragComm = new BindableCommand(_ => DragWindow());
@@ -170,7 +171,7 @@ namespace SunCloud.ViewModel
             }
         }
 
-        //окно на фуллскрин. не доделан возврат к прошлому размеру по повторному нажатию. мне лень
+        //окно на фуллскрин
         private void MaximizeWindow()
         {
             try
