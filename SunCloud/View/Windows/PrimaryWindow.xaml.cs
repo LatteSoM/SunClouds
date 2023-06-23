@@ -11,8 +11,12 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using ApiModels;
+using HourlyForecastModel;
 using SunCloud.View.Pages;
 using SunCloud.ViewModel;
+using WeatherLib;
+
 
 namespace SunCloud.View.Windows
 {
@@ -21,10 +25,10 @@ namespace SunCloud.View.Windows
     /// </summary>
     public partial class PrimaryWindow : Window
     {
-        public PrimaryWindow()
+        public PrimaryWindow(HourlyForecastObject _hourlyForecast, CurrentWeather _currWeather)
         {
             InitializeComponent();
-            DataContext = new PrimaryViewModel();
+            DataContext = new PrimaryViewModel(_hourlyForecast, _currWeather);
             //WeatherSettingsPageFrame.Content = new WeatherPage();
         }
     }

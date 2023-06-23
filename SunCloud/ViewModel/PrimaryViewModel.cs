@@ -17,10 +17,12 @@ using System.Windows.Media;
 using SunCloud.Model;
 using SunCloud.ViewModel.HelpTool;
 using SunCloud.View.Pages;
+using HourlyForecastModel;
+using ApiModels;
 
 namespace SunCloud.ViewModel
 {
-    internal class PrimaryViewModel : BindingTool
+    public class PrimaryViewModel : BindingTool
     {
         private Style _closeWindowBtnStyleKey;
         private Style _maximizeWindowBtnStyleKey;
@@ -126,7 +128,23 @@ namespace SunCloud.ViewModel
             }
         }
 
-        public PrimaryViewModel() 
+        private Page _pageFrameContent;
+
+        public Page p_pageFrameContent
+        {
+            get { return _pageFrameContent; }
+            set { 
+                _pageFrameContent = value; 
+                onPropertyChanged();
+            }
+        }
+
+        public PrimaryWindow primaryWindow = Application.Current.Windows.OfType<PrimaryWindow>().FirstOrDefault();
+
+        public HourlyForecastObject hourlyForecast;
+        public CurrentWeather currWeather;
+
+        public PrimaryViewModel(HourlyForecastObject _hourlyForecast, CurrentWeather _currWeather) 
         {
             dragComm = new BindableCommand(_ => DragWindow());
             closeComm = new BindableCommand(_ => CloseWindow());
@@ -137,7 +155,9 @@ namespace SunCloud.ViewModel
             _themeService.ThemeChanged += OnThemeChanged;
             _currentTheme = _themeService.GetCurrentTheme();
             SetThemeProperties();
-            primaryWindow.WeatherSettingsPageFrame.Content = new WeatherPage();
+            primaryWindow.WeatherSettingsPageFrame.Content = new WeatherPage(_hourlyForecast, _currWeather);
+            hourlyForecast = _hourlyForecast;
+            currWeather = _currWeather;
         }
 
         public BindableCommand dragComm { get; set; }
@@ -160,6 +180,25 @@ namespace SunCloud.ViewModel
             {
                 //throw;
             }
+        }
+
+        private void showWeatherPage()
+        {
+            p_pageFrameContent = null;
+            p_pageFrameContent = new WeatherPage(hourlyForecast, currWeather);
+
+            //primaryWindow.WeatherSettingsPageFrame.Content = null;
+            //primaryWindow.WeatherSettingsPageFrame.Content = new WeatherPage();
+
+        }
+
+        private void showSettingsPage()
+        {
+            p_pageFrameContent = null;
+            p_pageFrameContent = new SettingsPage();
+
+            //primaryWindow.WeatherSettingsPageFrame.Content = null;
+            //primaryWindow.WeatherSettingsPageFrame.Content = new SettingsPage();
         }
 
         private void CloseWindow()

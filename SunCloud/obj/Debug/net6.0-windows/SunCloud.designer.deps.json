@@ -6,41 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "LiveCharts/0.9.7": {
-        "runtime": {
-          "lib/net45/LiveCharts.dll": {
-            "assemblyVersion": "0.9.7.0",
-            "fileVersion": "0.9.7.0"
-          }
-        }
-      },
+      "LiveCharts/0.9.7": {},
       "LiveCharts.Wpf/0.9.7": {
         "dependencies": {
           "LiveCharts": "0.9.7"
-        },
-        "runtime": {
-          "lib/net45/LiveCharts.Wpf.dll": {
-            "assemblyVersion": "0.9.7.0",
-            "fileVersion": "0.9.7.0"
-          }
         }
       },
-      "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
-        "runtime": {
-          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.39.4716"
-          }
-        }
-      },
-      "Newtonsoft.Json/13.0.3": {
-        "runtime": {
-          "lib/net6.0/Newtonsoft.Json.dll": {
-            "assemblyVersion": "13.0.0.0",
-            "fileVersion": "13.0.3.27908"
-          }
-        }
-      }
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {},
+      "Newtonsoft.Json/13.0.3": {}
     }
   },
   "libraries": {

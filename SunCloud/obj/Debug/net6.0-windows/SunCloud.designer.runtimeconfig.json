@@ -12,7 +12,7 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\aleks\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\sakura\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\aleks\\.nuget\\packages"
     ],
     "configProperties": {

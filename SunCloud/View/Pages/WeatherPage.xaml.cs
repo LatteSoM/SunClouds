@@ -12,6 +12,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ApiModels;
+using HourlyForecastModel;
+using SunCloud.ViewModel;
+using WeatherLib;
 
 namespace SunCloud.View.Pages
 {
@@ -20,9 +24,10 @@ namespace SunCloud.View.Pages
     /// </summary>
     public partial class WeatherPage : Page
     {
-        public WeatherPage()
+        public WeatherPage(HourlyForecastObject _hourlyForecast, CurrentWeather _currWeather)
         {
             InitializeComponent();
+            DataContext = new WeatherPageViewModel(_hourlyForecast, _currWeather);
         }
     }
 }

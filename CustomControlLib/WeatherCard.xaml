@@ -36,11 +36,13 @@
 
             <!-- Элементы дизайна -->
             <TextBlock x:Name="TimeTbl" Text="12:00"
+                       x:FieldModifier="public"
                         Foreground="White" FontSize="17px"
                         FontFamily="fonts/#Jura Regular"
                         Grid.Row="0" 
                         VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
             <TextBlock x:Name="TempreatureTbl" Text="21°" 
+                       x:FieldModifier="public"
                         Foreground="White" FontSize="22px" 
                         FontFamily="fonts/#Jura Regular"
                         Grid.Row="1"
@@ -61,6 +63,7 @@
 
             <!-- Элементы дизайна -->
             <TextBlock x:Name="HumidityTbl" Text="Влаж."
+                       x:FieldModifier="public"
                        Foreground="White" FontSize="15px"
                        FontFamily="fonts/#Jura Regular"
                        Grid.Column="0" Grid.Row="0" 
@@ -71,11 +74,13 @@
                        Grid.Column="1" Grid.Row="0" 
                        VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
             <TextBlock x:Name="HumidityPercentTbl" Text="40%"
+                       x:FieldModifier="public"
                        Foreground="White" FontSize="14px"
                        FontFamily="fonts/#Jura Regular"
                        Grid.Column="0" Grid.Row="1" 
                        VerticalAlignment="Top" HorizontalAlignment="Center"/>
             <TextBlock x:Name="FeelingDegreeTbl" Text="19°"
+                       x:FieldModifier="public"
                        Foreground="White" FontSize="14px"
                        FontFamily="fonts/#Jura Regular"
                        Grid.Column="1" Grid.Row="1" 

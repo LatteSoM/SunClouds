@@ -11,6 +11,9 @@ using System.Windows;
 using SunCloud.ViewModel.HelpTools;
 using SunCloud.Model;
 using SunCloud.ViewModel.HelpTool;
+using WeatherLib;
+using ApiModels;
+using HourlyForecastModel;
 
 namespace SunCloud.ViewModel
 {
@@ -135,6 +138,7 @@ namespace SunCloud.ViewModel
             }
         }
 
+        private ApiLib _apiDriver = new ApiLib("007886a3de40c94ad9ba25b0fa3c8297");  // драгоченный ресурс
 
 
         public MainViewModel()
@@ -175,10 +179,17 @@ namespace SunCloud.ViewModel
         // переход на окно с инфой о погоде в городе
         private void WhatWeatherBtn_Click()
         {
-            PrimaryWindow primary_win = new PrimaryWindow();
-            primary_win.Show();
-            mainWindow.Close();
-        }
+            HourlyForecastObject hourlyForecast = _apiDriver.GetHourlyForecast(_Text);
+            CurrentWeather currentWeather = _apiDriver.GetCurrentWeather(_Text);
+            try
+            {
+                PrimaryWindow primary_win = new PrimaryWindow(hourlyForecast, currentWeather);
+                //MessageBox.Show($"{currWeather}");
+                primary_win.Show();
+                mainWindow.Close();
+            }
+            catch (NullReferenceException)
+            {
 
         //Метод для перетаскивания окна
         private void DragWindow()
