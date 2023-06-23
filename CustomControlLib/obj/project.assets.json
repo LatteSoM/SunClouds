@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sakura\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
+      "projectUniqueName": "C:\\Users\\sakura\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
       "projectName": "CustomControlLib",
-      "projectPath": "C:\\Users\\sakura\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
+      "projectPath": "C:\\Users\\sakura\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj",
       "packagesPath": "C:\\Users\\sakura\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sakura\\Source\\Repos\\SunClouds\\CustomControlLib\\obj\\",
+      "outputPath": "C:\\Users\\sakura\\source\\repos\\SunClouds\\CustomControlLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sakura\\AppData\\Roaming\\NuGet\\NuGet.Config",

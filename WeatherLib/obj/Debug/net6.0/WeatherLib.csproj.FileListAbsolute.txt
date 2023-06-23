@@ -106,3 +106,15 @@ C:\Users\KritZ\source\repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.dll
 C:\Users\KritZ\source\repos\SunClouds\WeatherLib\obj\Debug\net6.0\refint\WeatherLib.dll
 C:\Users\KritZ\source\repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.pdb
 C:\Users\KritZ\source\repos\SunClouds\WeatherLib\obj\Debug\net6.0\ref\WeatherLib.dll
+C:\Users\aleks\Source\Repos\SunClouds\WeatherLib\bin\Debug\net6.0\WeatherLib.deps.json
+C:\Users\aleks\Source\Repos\SunClouds\WeatherLib\bin\Debug\net6.0\WeatherLib.dll
+C:\Users\aleks\Source\Repos\SunClouds\WeatherLib\bin\Debug\net6.0\WeatherLib.pdb
+C:\Users\aleks\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.csproj.AssemblyReference.cache
+C:\Users\aleks\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleks\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.AssemblyInfoInputs.cache
+C:\Users\aleks\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.AssemblyInfo.cs
+C:\Users\aleks\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.csproj.CoreCompileInputs.cache
+C:\Users\aleks\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.dll
+C:\Users\aleks\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\refint\WeatherLib.dll
+C:\Users\aleks\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\WeatherLib.pdb
+C:\Users\aleks\Source\Repos\SunClouds\WeatherLib\obj\Debug\net6.0\ref\WeatherLib.dll
