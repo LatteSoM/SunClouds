@@ -64,7 +64,7 @@
                     </Separator.RenderTransform>
                 </Separator>
 
-                <TextBox Grid.Row="2" x:Name="CurrCityTbx" Style="{Binding CurrCityTbxStyleKey}">
+                <TextBox Text="{Binding p_Text}"  Grid.Row="2" x:Name="CurrCityTbx" Style="{Binding CurrCityTbxStyleKey}">
                     <!--<TextBox.Text>
                         <Binding Path="CityName">
                             <Binding.ValidationRules>
@@ -85,12 +85,12 @@
                         </i:EventTrigger>
                     </i:Interaction.Triggers>
                 </TextBox>
-                <Button MinHeight="15px" Grid.Row="2" MaxHeight="20px" MinWidth="20px" MaxWidth="20px" Width="20px" x:Name="BtnClearTextBox" Style="{Binding CloseWindowBtnStyleKey}" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" Command="{Binding clearComm}" HorizontalAlignment="Right" Margin="2,2,25,2">
+                <Button Visibility="{Binding p_visibilityMode}" MinHeight="15px" Grid.Row="2" MaxHeight="20px" MinWidth="20px" MaxWidth="20px" Width="20px" x:Name="BtnClearTextBox" Style="{Binding CloseWindowBtnStyleKey}" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" Command="{Binding clearComm}" HorizontalAlignment="Right" Margin="2,2,25,2">
                     <Image Source="/view/resources/images/CloseBtnWhite.png" Opacity="0.6"/>
                 </Button>
 
                 <Button Grid.Row="4" x:Name="WhatWeatherBtn" Style="{Binding WhatWeatherBtnStyleKey}" Command="{Binding whatCurrWeatherComm}">
-                    <Label Style="{Binding WhatWeatherBtnLabelStyleKey}" Content="Узнать погоду" HorizontalAlignment="Center"/>
+                    <Label Style="{Binding WhatWeatherBtnLabelStyleKey}"  Content="Узнать погоду" HorizontalAlignment="Center"/>
                 </Button>
             </Grid>
         </Grid>

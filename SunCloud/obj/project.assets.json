@@ -224,19 +224,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aleks\\.nuget\\packages\\": {}
+    "C:\\Users\\sakura\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\SunCloud\\SunCloud.csproj",
+      "projectUniqueName": "C:\\Users\\sakura\\source\\repos\\SunClouds\\SunCloud\\SunCloud.csproj",
       "projectName": "SunCloud",
-      "projectPath": "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\SunCloud\\SunCloud.csproj",
-      "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\SunCloud\\obj\\",
+      "projectPath": "C:\\Users\\sakura\\source\\repos\\SunClouds\\SunCloud\\SunCloud.csproj",
+      "packagesPath": "C:\\Users\\sakura\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sakura\\source\\repos\\SunClouds\\SunCloud\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sakura\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -250,14 +250,14 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj": {
-              "projectPath": "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj"
+            "C:\\Users\\sakura\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj": {
+              "projectPath": "C:\\Users\\sakura\\source\\repos\\SunClouds\\CustomControlLib\\CustomControlLib.csproj"
             },
-            "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj": {
-              "projectPath": "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj"
+            "C:\\Users\\sakura\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj": {
+              "projectPath": "C:\\Users\\sakura\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj"
             },
-            "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {
-              "projectPath": "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj"
+            "C:\\Users\\sakura\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {
+              "projectPath": "C:\\Users\\sakura\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj"
             }
           }
         }
@@ -300,7 +300,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   },

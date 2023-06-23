@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "blCAX8YsXGhvAYI0bC8KFqC1jIA9cbtQXhC03whp86fVzglbrXvHLJzKsDRiTcvDo9OHF9bbS3wI3LKUgEBfjA==",
+  "dgSpecHash": "RBbvtnDKP7LyGZFyQDkEYnTypej0tlYSUN3b7jbYqYhLrH5EC7jbQXouvSSLN48oLwNi0tGL/uOcEOoXzO6gxQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
+  "projectFilePath": "C:\\Users\\sakura\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\aleks\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
-    "C:\\Users\\aleks\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512",
-    "C:\\Users\\aleks\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\sakura\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
+    "C:\\Users\\sakura\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512",
+    "C:\\Users\\sakura\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": [
     {

@@ -126,12 +126,27 @@ namespace SunCloud.ViewModel
             }
         }
 
+        private Page _pageFrameContent;
+
+        public Page p_pageFrameContent
+        {
+            get { return _pageFrameContent; }
+            set { 
+                _pageFrameContent = value; 
+                onPropertyChanged();
+            }
+        }
+
+        public PrimaryWindow primaryWindow = Application.Current.Windows.OfType<PrimaryWindow>().FirstOrDefault();
+
         public PrimaryViewModel() 
         {
             dragComm = new BindableCommand(_ => DragWindow());
             closeComm = new BindableCommand(_ => CloseWindow());
             maximizeComm = new BindableCommand(_ => MaximizeWindow());
             minimizeComm = new BindableCommand(_ => MinimizeWindow());
+            showWeatherComm = new BindableCommand(_ => showWeatherPage());
+            showSettingsComm = new BindableCommand(_ => showSettingsPage());
 
             _themeService = new ThemeService();
             _themeService.ThemeChanged += OnThemeChanged;
@@ -147,8 +162,6 @@ namespace SunCloud.ViewModel
         public BindableCommand showWeatherComm { get; set; }
         public BindableCommand showSettingsComm { get; set; }
 
-        public PrimaryWindow primaryWindow = Application.Current.Windows.OfType<PrimaryWindow>().FirstOrDefault();
-
         //Метод для перетаскивания окна
         private void DragWindow()
         {
@@ -160,6 +173,25 @@ namespace SunCloud.ViewModel
             {
                 //throw;
             }
+        }
+
+        private void showWeatherPage()
+        {
+            p_pageFrameContent = null;
+            p_pageFrameContent = new WeatherPage();
+
+            //primaryWindow.WeatherSettingsPageFrame.Content = null;
+            //primaryWindow.WeatherSettingsPageFrame.Content = new WeatherPage();
+
+        }
+
+        private void showSettingsPage()
+        {
+            p_pageFrameContent = null;
+            p_pageFrameContent = new SettingsPage();
+
+            //primaryWindow.WeatherSettingsPageFrame.Content = null;
+            //primaryWindow.WeatherSettingsPageFrame.Content = new SettingsPage();
         }
 
         private void CloseWindow()
