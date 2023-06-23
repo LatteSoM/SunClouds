@@ -4,6 +4,8 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:SunCloud.View.Pages"
+      xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+      
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="WeatherPage">
@@ -29,14 +31,14 @@
                     ShadowDepth="2"/>
             </Rectangle.BitmapEffect>
         </Rectangle>
-        
+
 
         <Grid Grid.ColumnSpan="3" Margin="20" MinHeight="90" >
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*" MinWidth="100"/>
                 <ColumnDefinition Width="5*" MinWidth="0"/>
             </Grid.ColumnDefinitions>
-            
+
             <Rectangle VerticalAlignment="Stretch" Grid.Row="0" Grid.Column="0" Margin="0 15 0 15" Stroke="#ffffff" Opacity="1" HorizontalAlignment="Right"/>
 
             <TextBlock Style="{DynamicResource BigLeftTemperatureTbxDay}" Text="21°" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0"/>
@@ -97,6 +99,29 @@
                     ShadowDepth="2"/>
             </Rectangle.BitmapEffect>
         </Rectangle>
+        <WrapPanel HorizontalAlignment="Center" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="3">
+            <Button  Content="Температура"  Background="{Binding bg_first}" Command="{Binding }" Padding="1" Foreground="#fff" FontSize="20" Width="235" Height="35" Margin="0 21 7 0"/>
+            <Button Content="Ощущается как"  Background="{Binding bg_second}" Command="{Binding }" Padding="1" Foreground="#fff"  FontSize="20" Width="235" Height="35" Margin="0 21 7 0"/>
+            <Button  Content="Давление"  Background="{Binding bg_third}" Command="{Binding }" Padding="5" Foreground="#fff"  FontSize="20" Width="235" Height="35" Margin="0 21 7 0"/>
+        </WrapPanel>
+
+
+        <lvc:CartesianChart Series="{Binding Series}" Grid.Row="2" Grid.ColumnSpan="3" Width="750" Height="140" Margin="0 50 10 10">
+            <lvc:CartesianChart.AxisX>
+                <lvc:Axis Foreground="White" Labels="{Binding XLabels}" FontSize="{Binding FontSizeX}">
+                    <lvc:Axis.Separator>
+                        <lvc:Separator StrokeThickness="3" Step="1" />
+                    </lvc:Axis.Separator>
+                </lvc:Axis>
+            </lvc:CartesianChart.AxisX>
+            <lvc:CartesianChart.AxisY>
+                <lvc:Axis Foreground="White" FontSize="{Binding FontSizeY}" Labels="{Binding Ylabels}" LabelFormatter="{Binding Formatter}">
+                    <lvc:Axis.Separator>
+                        <lvc:Separator StrokeThickness="2" Step="10" />
+                    </lvc:Axis.Separator>
+                </lvc:Axis>
+            </lvc:CartesianChart.AxisY>
+        </lvc:CartesianChart>
 
     </Grid>
 
