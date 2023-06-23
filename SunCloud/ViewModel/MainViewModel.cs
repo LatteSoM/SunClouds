@@ -11,6 +11,8 @@ using System.Windows;
 using SunCloud.ViewModel.HelpTools;
 using SunCloud.Model;
 using SunCloud.ViewModel.HelpTool;
+using WeatherLib;
+using ApiModels;
 
 namespace SunCloud.ViewModel
 {
@@ -28,6 +30,7 @@ namespace SunCloud.ViewModel
         private Style _windowBackgroundStyleKey;
         private Theme _currentTheme;
         private readonly ThemeService _themeService;
+
         public Style CloseWindowBtnStyleKey
         {
             get { return _closeWindowBtnStyleKey; }
@@ -135,6 +138,8 @@ namespace SunCloud.ViewModel
             }
         }
 
+        //private ApiLib _apiDriver = new ApiLib("007886a3de40c94ad9ba25b0fa3c8297");
+
 
 
         public MainViewModel()
@@ -176,9 +181,22 @@ namespace SunCloud.ViewModel
         private void WhatWeatherBtn_Click()
         {
             PrimaryWindow primary_win = new PrimaryWindow();
-            primary_win.Show();
-            mainWindow.Close();
+            //CurrentWeather currWeather = _apiDriver.GetCurrentWeather(_Text);
+            try
+            {
+                //MessageBox.Show($"{currWeather.name}\n{string.Join(" ", currWeather.weather)}");
+                primary_win.Show();
+                mainWindow.Close();
+            }
+            catch (NullReferenceException)
+            {
+
+                MessageBox.Show("ТЫ ЧОРТ");
+            }
+
         }
+
+        
 
         //Метод для перетаскивания окна
         private void DragWindow()
@@ -245,41 +263,43 @@ namespace SunCloud.ViewModel
         private void CurrCityTbx_TextChanged()
         {
             // показываем или скрываем кнопку очистки, в зависимости от содержимого TextBox
-            if (string.IsNullOrWhiteSpace(_Text))
+            //Mess
+            if (!string.IsNullOrWhiteSpace(_Text))
             {
-                _visibilityMode = "Collapsed";
+                p_visibilityMode = "Visible";
             }
             else
             {
-                _visibilityMode = "Visible";
+                p_visibilityMode = "Collapsed"; 
             }
         }
 
         private void CurrCityTbx_GotFocus()
         {
             // если юзер нажимает на кнопку, очищаем хинт
-            if (_Text == "Ваш город")
+            if (p_Text == "Ваш город")
             {
-                _Text = string.Empty;
-                _visibilityMode = "Visible";
+                //_Text = "";
+                p_Text = string.Empty;
+                p_visibilityMode = "Visible";
             }
         }
 
         private void CurrCityTbx_LostFocus()
         {
             // если текстбокс пустой, показываем хинт
-            if (string.IsNullOrWhiteSpace(_Text))
+            if (string.IsNullOrWhiteSpace(p_Text))
             {
-                _Text = "Ваш город";
-                _Foreground = "#FFFFFF";
+                p_Text = "Ваш город";
+                p_Foreground = "#FFFFFF";
             }
         }
 
         private void BtnClearTextBox_Click()
         {
             // очищаем текстбокс по кнопке
-            _Text = string.Empty;
-            _visibilityMode = "Collapsed";
+            p_Text = string.Empty;
+            p_visibilityMode = "Collapsed";
         }
 
         private void SetThemeProperties()

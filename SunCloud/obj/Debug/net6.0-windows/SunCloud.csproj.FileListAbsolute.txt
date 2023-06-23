@@ -388,3 +388,7 @@ C:\Users\aleks\Source\Repos\SunClouds\SunCloud\obj\Debug\net6.0-windows\refint\S
 C:\Users\aleks\Source\Repos\SunClouds\SunCloud\obj\Debug\net6.0-windows\SunCloud.pdb
 C:\Users\aleks\Source\Repos\SunClouds\SunCloud\obj\Debug\net6.0-windows\SunCloud.genruntimeconfig.cache
 C:\Users\aleks\Source\Repos\SunClouds\SunCloud\obj\Debug\net6.0-windows\ref\SunCloud.dll
+C:\Users\sakura\source\repos\SunClouds\SunCloud\bin\Debug\net6.0-windows\LiveCharts.dll
+C:\Users\sakura\source\repos\SunClouds\SunCloud\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
+C:\Users\sakura\source\repos\SunClouds\SunCloud\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\sakura\source\repos\SunClouds\SunCloud\bin\Debug\net6.0-windows\Newtonsoft.Json.dll

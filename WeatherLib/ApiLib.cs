@@ -86,15 +86,24 @@ namespace WeatherLib
             }
         }
 
-        public GeocodedObject GetGeocodedObject(string _city)
+        public GeocodedObject? GetGeocodedObject(string _city)
         {
+            
             var json_response = GetApiResponse(  // Получаю информацию по заданному запросу
 
                 API_CONNECTION_URL + $"geo/1.0/direct?q={_city}&limit=1&appid={ApiKey}"
 
              );
-            var geocoded_obj = JsonConvert.DeserializeObject<GeocodedObject>(json_response);  // Десериализую ответ по соответсвующей модели
-            return geocoded_obj;
+            var geocoded_obj = JsonConvert.DeserializeObject<GeocodedObject[]>(json_response);  // Десериализую ответ по соответсвующей модели
+            try
+            {
+                return geocoded_obj[0];
+            }
+            catch (IndexOutOfRangeException)
+            {
+                return null;
+            }
+
 
         }
 
