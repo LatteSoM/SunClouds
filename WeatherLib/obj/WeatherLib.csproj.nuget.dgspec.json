@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vzr\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {}
+    "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vzr\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {
+    "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vzr\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
+        "projectUniqueName": "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
         "projectName": "WeatherLib",
-        "projectPath": "C:\\Users\\vzr\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
-        "packagesPath": "C:\\Users\\vzr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vzr\\Source\\Repos\\SunClouds\\WeatherLib\\obj\\",
+        "projectPath": "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
+        "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aleks\\Source\\Repos\\SunClouds\\WeatherLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vzr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "LiveCharts.Wpf": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -61,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
