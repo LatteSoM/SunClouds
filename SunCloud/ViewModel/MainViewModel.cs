@@ -177,7 +177,7 @@ namespace SunCloud.ViewModel
         {
             PrimaryWindow primary_win = new PrimaryWindow();
             primary_win.Show();
-
+            mainWindow.Close();
         }
 
         //Метод для перетаскивания окна

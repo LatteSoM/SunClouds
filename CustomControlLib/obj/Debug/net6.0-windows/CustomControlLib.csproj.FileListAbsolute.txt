@@ -216,3 +216,5 @@ C:\Users\KritZ\source\repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\
 C:\Users\KritZ\source\repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\refint\CustomControlLib.dll
 C:\Users\KritZ\source\repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\CustomControlLib.pdb
 C:\Users\KritZ\source\repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\ref\CustomControlLib.dll
+C:\Users\vzr\Source\Repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\GraduceFarenBtn.g.cs
+C:\Users\vzr\Source\Repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\GraduceFarenBtn.baml

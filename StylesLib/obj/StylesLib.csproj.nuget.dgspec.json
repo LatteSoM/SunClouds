@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj": {}
+    "C:\\Users\\vzr\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj": {
+    "C:\\Users\\vzr\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj",
+        "projectUniqueName": "C:\\Users\\vzr\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj",
         "projectName": "StylesLib",
-        "projectPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj",
-        "packagesPath": "C:\\Users\\KritZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\StylesLib\\obj\\",
+        "projectPath": "C:\\Users\\vzr\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj",
+        "packagesPath": "C:\\Users\\vzr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vzr\\Source\\Repos\\SunClouds\\StylesLib\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Software\\Utilities\\MicrosoftVisualStudio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\KritZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\vzr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
