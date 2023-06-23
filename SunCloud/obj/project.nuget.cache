@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "KHsajst8WUmgtSLZoEJGdwzIm06vsMPUeZBqOe3krPU7WohDDnHg2egjrroxoYHo4QRoxW/JZ1RtOvUCjkU4og==",
+  "dgSpecHash": "nX9bWGKa5WQz2NHxLxzL/h9fJkJqBIEThu/c+540jyKngxq24vulWSl4r5RZtfpk5fN4Bx4IfESHaCF6oQKKvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KritZ\\source\\repos\\SunClouds\\SunCloud\\SunCloud.csproj",
+  "projectFilePath": "C:\\Users\\vzr\\Source\\Repos\\SunClouds\\SunCloud\\SunCloud.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\KritZ\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
-    "C:\\Users\\KritZ\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\vzr\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\vzr\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

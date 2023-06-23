@@ -16,6 +16,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using SunCloud.Model;
 using SunCloud.ViewModel.HelpTool;
+using SunCloud.View.Pages;
 
 namespace SunCloud.ViewModel
 {
@@ -136,12 +137,15 @@ namespace SunCloud.ViewModel
             _themeService.ThemeChanged += OnThemeChanged;
             _currentTheme = _themeService.GetCurrentTheme();
             SetThemeProperties();
+            primaryWindow.WeatherSettingsPageFrame.Content = new WeatherPage();
         }
 
         public BindableCommand dragComm { get; set; }
         public BindableCommand closeComm { get; set; }
         public BindableCommand maximizeComm { get; set; }
         public BindableCommand minimizeComm { get; set; }
+        public BindableCommand showWeatherComm { get; set; }
+        public BindableCommand showSettingsComm { get; set; }
 
         public PrimaryWindow primaryWindow = Application.Current.Windows.OfType<PrimaryWindow>().FirstOrDefault();
 

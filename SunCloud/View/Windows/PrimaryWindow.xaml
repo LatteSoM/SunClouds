@@ -62,10 +62,9 @@
             </Separator.RenderTransform>
         </Separator>
 
-
-        <Button Template="{DynamicResource WeatherSettingsBtnControlTemplate}" x:Name="WeatherPageBtn" Grid.Row="1" Grid.Column="1" Content="Погода" Style="{Binding ChangePageBtnStyleKey}" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center"/>
-        <Button Template="{DynamicResource WeatherSettingsBtnControlTemplate}" x:Name="SettingsPageBtn" Grid.Row="1" Grid.Column="2" Content="Настройки" Style="{Binding ChangePageBtnStyleKey}" HorizontalAlignment="Right" HorizontalContentAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center"/>
-
+        <Button Command="{Binding showWeatherComm}" Template="{DynamicResource WeatherSettingsBtnControlTemplate}" x:Name="WeatherPageBtn" Grid.Row="1" Grid.Column="1" Content="Погода" Style="{Binding ChangePageBtnStyleKey}" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button Command="{Binding showSettingsComm}" Template="{DynamicResource WeatherSettingsBtnControlTemplate}" x:Name="SettingsPageBtn" Grid.Row="1" Grid.Column="2" Content="Настройки" Style="{Binding ChangePageBtnStyleKey}" HorizontalAlignment="Right" HorizontalContentAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center"/>
+        
 
        <ScrollViewer Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Grid.RowSpan="2">
             <Grid Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Grid.RowSpan="2" Height="700">
