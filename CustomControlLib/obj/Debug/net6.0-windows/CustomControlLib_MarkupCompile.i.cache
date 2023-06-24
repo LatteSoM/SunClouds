@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\sakura\source\repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\
+C:\Users\sakura\Source\Repos\SunClouds\CustomControlLib\obj\Debug\net6.0-windows\
 CustomControlLib
 none
 false
@@ -13,7 +13,7 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 51107465079
 
 81763696811
-1941709816142
+194-1617825143
 CustomTbx.xaml;GraduceBtn.xaml;GraduceFarenBtn.xaml;UserControl1.xaml;WeatherCard.xaml;
 
 True

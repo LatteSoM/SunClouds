@@ -88,7 +88,7 @@ namespace WeatherLib
 
         public GeocodedObject? GetGeocodedObject(string _city)
         {
-            
+
             var json_response = GetApiResponse(  // Получаю информацию по заданному запросу
 
                 API_CONNECTION_URL + $"geo/1.0/direct?q={_city}&limit=1&appid={ApiKey}"
@@ -107,72 +107,105 @@ namespace WeatherLib
 
         }
 
-        public CurrentWeather GetCurrentWeather(string _city)
+        public CurrentWeather? GetCurrentWeather(string _city)
         {
-            GeocodedObject geocoded_city = GetGeocodedObject(_city);
-            var json_response = GetApiResponse(
-
-                API_CONNECTION_URL + $"data/2.5/weather?lat={geocoded_city.lat}&lon={geocoded_city.lon}&appid={ApiKey}"
-
-            );
-            var curr_weather = JsonConvert.DeserializeObject<CurrentWeather>(json_response);
-            return curr_weather;
-
-        }
-
-        public Forecast GetForecastObject(string _city)
-        {
-            GeocodedObject geocoded_city = GetGeocodedObject(_city);
-            var json_response = GetApiResponse(
-
-                API_CONNECTION_URL + $"data/2.5/forecast?lat={geocoded_city.lat}&lon={geocoded_city.lon}&appid={ApiKey}"
-
-            );
-            var forecast = JsonConvert.DeserializeObject<Forecast>(json_response);
-            return forecast;
-        }
-
-        public HourlyForecastObject GetHourlyForecast(string _city)
-        {
-            GeocodedObject geocoded_city = GetGeocodedObject(_city);
-
-            var json_response = GetApiResponse(
-
-                API_CONNECTION_URL + $"data/2.5/onecall?lat={geocoded_city.lat}&lon={geocoded_city.lon}&exclude=current,minutely,daily,alerts&appid={ApiKey}"
-            );
-
-            var h_forecast = JsonConvert.DeserializeObject<HourlyForecastObject>(json_response);
-            return h_forecast;
-
-        }
-
-        public List<double> GetGraphPoints(string _city, GraphMode mode, int hours = 8)
-        {
-            List<double> points = new List<double>();
-            var h_forecast_list = GetHourlyForecast(_city).hourly;
-
-            if ((hours > 47) || (hours < 0))  // Проверка на введенный параметр
+            try
             {
-                throw new Exception("Value is too big or too small. the boundary values are 0 and 47");
+                GeocodedObject geocoded_city = GetGeocodedObject(_city);
+                var json_response = GetApiResponse(
+
+                    API_CONNECTION_URL + $"data/2.5/weather?lat={geocoded_city.lat}&lon={geocoded_city.lon}&appid={ApiKey}"
+
+                );
+                var curr_weather = JsonConvert.DeserializeObject<CurrentWeather>(json_response);
+                return curr_weather;
+
+            }
+            catch (NullReferenceException)
+            {
+                return null;
             }
 
-            for (int i = 0; i < hours; i++)
+        }
+
+        public Forecast? GetForecastObject(string _city)
+        {
+            try
             {
-                if (mode == GraphMode.Temp)  // По соответствующему режиму добавляю информацию
-                {
-                    points.Add(h_forecast_list[i].temp);  // добавляю значения температуры, если выбран режим температуры и так далее
-                }
-                else if (mode == GraphMode.FeelsLike)
-                {
-                    points.Add(h_forecast_list[i].feels_like);
-                }
-                else if (mode == GraphMode.Pressure)
-                {
-                    points.Add(h_forecast_list[i].pressure);
-                }
+                GeocodedObject geocoded_city = GetGeocodedObject(_city);
+                var json_response = GetApiResponse(
+
+                    API_CONNECTION_URL + $"data/2.5/forecast?lat={geocoded_city.lat}&lon={geocoded_city.lon}&appid={ApiKey}"
+
+                );
+                var forecast = JsonConvert.DeserializeObject<Forecast>(json_response);
+                return forecast;
+
+            }
+            catch (NullReferenceException)
+            {
+                return null;
+            }
+        }
+
+        public HourlyForecastObject? GetHourlyForecast(string _city)
+        {
+
+            try
+            {
+
+                GeocodedObject geocoded_city = GetGeocodedObject(_city);
+
+                var json_response = GetApiResponse(
+
+                    API_CONNECTION_URL + $"data/2.5/onecall?lat={geocoded_city.lat}&lon={geocoded_city.lon}&exclude=current,minutely,daily,alerts&appid={ApiKey}"
+                );
+
+                var h_forecast = JsonConvert.DeserializeObject<HourlyForecastObject>(json_response);
+                return h_forecast;
+            }
+            catch (NullReferenceException)
+            {
+                return null;
             }
 
-            return points;
+        }
+
+        public List<double>? GetGraphPoints(string _city, GraphMode mode, int hours = 8)
+        {
+            try
+            {
+                List<double> points = new List<double>();
+                var h_forecast_list = GetHourlyForecast(_city).hourly;
+
+                if ((hours > 47) || (hours < 0))  // Проверка на введенный параметр
+                {
+                    throw new Exception("Value is too big or too small. the boundary values are 0 and 47");
+                }
+
+                for (int i = 0; i < hours; i++)
+                {
+                    if (mode == GraphMode.Temp)  // По соответствующему режиму добавляю информацию
+                    {
+                        points.Add(h_forecast_list[i].temp);  // добавляю значения температуры, если выбран режим температуры и так далее
+                    }
+                    else if (mode == GraphMode.FeelsLike)
+                    {
+                        points.Add(h_forecast_list[i].feels_like);
+                    }
+                    else if (mode == GraphMode.Pressure)
+                    {
+                        points.Add(h_forecast_list[i].pressure);
+                    }
+                }
+
+                return points;
+
+            }
+            catch (NullReferenceException)
+            {
+                return null;
+            }
         }
     }
 }

@@ -41,41 +41,40 @@
 
             <Rectangle VerticalAlignment="Stretch" Grid.Row="0" Grid.Column="0" Margin="0 15 0 15" Stroke="#ffffff" Opacity="1" HorizontalAlignment="Right"/>
 
-            <TextBlock Style="{DynamicResource BigLeftTemperatureTbxDay}" Text="21°" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0"/>
+            <TextBlock Style="{DynamicResource BigLeftTemperatureTbxDay}" Text="{Binding p_tempMain}" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0"/>
 
 
             <ToolBar Grid.Column="1" Background="#0000" Style="{DynamicResource ToolBarStyleDay}" Margin="0 10 0 0" HorizontalAlignment="Center">
                 <StackPanel>
                     <TextBlock Style="{DynamicResource ToolBarElementTbDay}" Text="Ощущение:" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,30,0"/>
-                    <TextBlock Style="{DynamicResource ToolBarElementTbDay}" Text="{Binding Feeling}" Grid.Row="1" Grid.Column="2"  HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                    <TextBlock Style="{DynamicResource ToolBarElementTbDay}" Text="{Binding p_tempFeel}" Grid.Row="1" FontSize="16" Grid.Column="2"  HorizontalAlignment="Center" VerticalAlignment="Top"/>
                 </StackPanel>
                 <StackPanel>
                     <TextBlock Style="{DynamicResource ToolBarElementTbDay}" Text="Мин." Grid.Row="0" Grid.Column="3"   HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,30,0"/>
-                    <TextBlock Style="{DynamicResource ToolBarElementTbDay}" Text="{Binding Min}" Grid.Row="1" Grid.Column="3"  HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                    <TextBlock Style="{DynamicResource ToolBarElementTbDay}" Text="{Binding p_tempMin}" Grid.Row="1" FontSize="16" Grid.Column="3"  HorizontalAlignment="Center" VerticalAlignment="Top"/>
                 </StackPanel>
                 <StackPanel>
                     <TextBlock Style="{DynamicResource ToolBarElementTbDay}" Text="Макс." Grid.Row="0" Grid.Column="4"  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,30,0"/>
-                    <TextBlock Style="{DynamicResource ToolBarElementTbDay}" Text="{Binding Max}" Grid.Row="1" Grid.Column="4" HorizontalAlignment="Center"  VerticalAlignment="Top"/>
+                    <TextBlock Style="{DynamicResource ToolBarElementTbDay}" Text="{Binding p_tempMax}" Grid.Row="1" FontSize="16" Grid.Column="4" HorizontalAlignment="Center"  VerticalAlignment="Top"/>
                 </StackPanel>
                 <StackPanel>
                     <TextBlock Style="{DynamicResource ToolBarElementTbDay}" Text="Давление:" Grid.Row="0" Grid.Column="5"  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,30,0"/>
-                    <TextBlock Style="{DynamicResource ToolBarElementTbDay}" Text="{Binding Pressure}" Grid.Row="1" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                    <TextBlock Style="{DynamicResource ToolBarElementTbDay}" Text="{Binding p_pressureMain}" Grid.Row="1" FontSize="16" Grid.Column="5" HorizontalAlignment="Center" VerticalAlignment="Top"/>
                 </StackPanel>
                 <StackPanel>
                     <TextBlock Style="{DynamicResource ToolBarElementTbDay}" Text="Влажность:" Grid.Row="0" Grid.Column="6"  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,30,0"/>
-                    <TextBlock Style="{DynamicResource ToolBarElementTbDay}" Text="{Binding Humidity}" Grid.Row="1" Grid.Column="6" HorizontalAlignment="Center"  VerticalAlignment="Top"/>
+                    <TextBlock Style="{DynamicResource ToolBarElementTbDay}" Text="{Binding p_humidityMain}" Grid.Row="1" Grid.Column="6" HorizontalAlignment="Center"  VerticalAlignment="Top"/>
                 </StackPanel>
                 <StackPanel>
                     <TextBlock Style="{DynamicResource ToolBarElementTbDay}" Text="Ветер м/с:" Grid.Row="0" Grid.Column="7"  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,30,0"/>
-                    <TextBlock Style="{DynamicResource ToolBarElementTbDay}" Text="{Binding Wind}" Grid.Row="1" Grid.Column="7" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                    <TextBlock Style="{DynamicResource ToolBarElementTbDay}" Text="{Binding p_windSpeed}" Grid.Row="1" Grid.Column="7" HorizontalAlignment="Center" VerticalAlignment="Top"/>
                 </StackPanel>
                 <StackPanel>
                     <TextBlock Style="{DynamicResource ToolBarElementTbDay}" Text="Ветер °:" Grid.Row="0" Grid.Column="8"  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,30,0"/>
-                    <TextBlock Style="{DynamicResource ToolBarElementTbDay}" Text="{Binding Wind2}" Grid.Row="1" Grid.Column="8" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                    <TextBlock Style="{DynamicResource ToolBarElementTbDay}" Text="{Binding p_windDeg}" Grid.Row="1" Grid.Column="8" HorizontalAlignment="Center" VerticalAlignment="Top"/>
                 </StackPanel>
             </ToolBar>
         </Grid>
-
 
 
         <!-- ПЛАШКА С КАРТОЧКАМИ -->
@@ -88,6 +87,13 @@
                     ShadowDepth="2"/>
             </Rectangle.BitmapEffect>
         </Rectangle>
+        <ItemsControl x:Name="tStack" ItemsSource="{Binding p_weatherCards}" Grid.Row="1" Grid.ColumnSpan="3">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Horizontal" Margin="20,20,20,0"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+        </ItemsControl>
 
         <!-- ПЛАШКА С ГРАФИКОМ -->
         <Rectangle Grid.ColumnSpan="3" Grid.Row="2"

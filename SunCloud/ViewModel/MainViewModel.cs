@@ -13,6 +13,7 @@ using SunCloud.Model;
 using SunCloud.ViewModel.HelpTool;
 using WeatherLib;
 using ApiModels;
+using HourlyForecastModel;
 
 namespace SunCloud.ViewModel
 {
@@ -138,7 +139,7 @@ namespace SunCloud.ViewModel
             }
         }
 
-        //private ApiLib _apiDriver = new ApiLib("007886a3de40c94ad9ba25b0fa3c8297");
+        private ApiLib _apiDriver = new ApiLib("007886a3de40c94ad9ba25b0fa3c8297");
 
 
 
@@ -180,10 +181,11 @@ namespace SunCloud.ViewModel
         // переход на окно с инфой о погоде в городе
         private void WhatWeatherBtn_Click()
         {
-            PrimaryWindow primary_win = new PrimaryWindow();
-            //CurrentWeather currWeather = _apiDriver.GetCurrentWeather(_Text);
+            HourlyForecastObject hourlyForecast = _apiDriver.GetHourlyForecast(_Text);
+            CurrentWeather currWeather = _apiDriver.GetCurrentWeather(_Text);
             try
             {
+                PrimaryWindow primary_win = new PrimaryWindow(hourlyForecast, currWeather);
                 //MessageBox.Show($"{currWeather.name}\n{string.Join(" ", currWeather.weather)}");
                 primary_win.Show();
                 mainWindow.Close();
@@ -191,7 +193,7 @@ namespace SunCloud.ViewModel
             catch (NullReferenceException)
             {
 
-                MessageBox.Show("ТЫ ЧОРТ");
+                MessageBox.Show("Неверный город");
             }
 
         }

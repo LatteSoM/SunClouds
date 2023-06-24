@@ -39,11 +39,13 @@
                         Foreground="White" FontSize="17px"
                         FontFamily="fonts/#Jura Regular"
                         Grid.Row="0" 
+                       x:FieldModifier="public"
                         VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
             <TextBlock x:Name="TempreatureTbl" Text="21°" 
                         Foreground="White" FontSize="22px" 
                         FontFamily="fonts/#Jura Regular"
                         Grid.Row="1"
+                       x:FieldModifier="public"
                         VerticalAlignment="Top" HorizontalAlignment="Center"/>
         </Grid>
 
@@ -74,11 +76,13 @@
                        Foreground="White" FontSize="14px"
                        FontFamily="fonts/#Jura Regular"
                        Grid.Column="0" Grid.Row="1" 
+                       x:FieldModifier="public"
                        VerticalAlignment="Top" HorizontalAlignment="Center"/>
             <TextBlock x:Name="FeelingDegreeTbl" Text="19°"
                        Foreground="White" FontSize="14px"
                        FontFamily="fonts/#Jura Regular"
                        Grid.Column="1" Grid.Row="1" 
+                       x:FieldModifier="public"
                        VerticalAlignment="Top" HorizontalAlignment="Center"/>
         </Grid>
 

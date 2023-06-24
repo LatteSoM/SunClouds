@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\sakura\source\repos\SunClouds\SunCloud\obj\Debug\net6.0-windows\
+C:\Users\sakura\Source\Repos\SunClouds\SunCloud\obj\Debug\net6.0-windows\
 SunCloud
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\sakura\source\repos\SunClouds\SunCloud\App.xaml
+C:\Users\sakura\Source\Repos\SunClouds\SunCloud\App.xaml
 7-1939505592
 
 17-1566126586
-2011325061012
+201-1939708799
 View\Pages\SettingsPage.xaml;View\Pages\WeatherPage.xaml;View\Resources\DayTheme.xaml;View\Resources\MorningEveningTheme.xaml;View\Resources\NightTheme.xaml;View\Windows\MainWindow.xaml;View\Windows\PrimaryWindow.xaml;
 
-False
+True
 

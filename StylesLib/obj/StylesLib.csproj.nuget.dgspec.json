@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sakura\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj": {}
+    "C:\\Users\\sakura\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sakura\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj": {
+    "C:\\Users\\sakura\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sakura\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj",
+        "projectUniqueName": "C:\\Users\\sakura\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj",
         "projectName": "StylesLib",
-        "projectPath": "C:\\Users\\sakura\\source\\repos\\SunClouds\\StylesLib\\StylesLib.csproj",
+        "projectPath": "C:\\Users\\sakura\\Source\\Repos\\SunClouds\\StylesLib\\StylesLib.csproj",
         "packagesPath": "C:\\Users\\sakura\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sakura\\source\\repos\\SunClouds\\StylesLib\\obj\\",
+        "outputPath": "C:\\Users\\sakura\\Source\\Repos\\SunClouds\\StylesLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sakura\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

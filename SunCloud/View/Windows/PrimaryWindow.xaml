@@ -45,7 +45,7 @@
                 <DropShadowBitmapEffect Direction="0" Opacity="0.25" ShadowDepth="2" Softness="0.5"/>
             </Rectangle.BitmapEffect>
         </Rectangle>
-        <TextBlock x:Name="CurrentCityTb" Style="{Binding CurrCityTbStyleKey}" Text="Москва" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Normal" Grid.Row="1" Grid.Column="0"/>
+        <TextBlock x:Name="CurrentCityTb" Style="{Binding CurrCityTbStyleKey}" Text="{Binding p_citySet}" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Normal" Grid.Row="1" Grid.Column="0"/>
         <Separator Grid.Row="1" Grid.Column="0" Margin="18 0 18 0" Height="1px" Background="#3D95B9" Opacity=".5" VerticalAlignment="Bottom" >
             <Separator.RenderTransform>
                 <ScaleTransform ScaleY="3" />
@@ -64,9 +64,9 @@
 
         <Button Command="{Binding showWeatherComm}" Template="{DynamicResource WeatherSettingsBtnControlTemplate}" x:Name="WeatherPageBtn" Grid.Row="1" Grid.Column="1" Content="Погода" Style="{Binding ChangePageBtnStyleKey}" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center"/>
         <Button Command="{Binding showSettingsComm}" Template="{DynamicResource WeatherSettingsBtnControlTemplate}" x:Name="SettingsPageBtn" Grid.Row="1" Grid.Column="2" Content="Настройки" Style="{Binding ChangePageBtnStyleKey}" HorizontalAlignment="Right" HorizontalContentAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Center"/>
-        
 
-       <ScrollViewer Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Grid.RowSpan="2">
+
+        <ScrollViewer Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Grid.RowSpan="2">
             <Grid Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Grid.RowSpan="2" Height="700">
                 <Frame x:Name="WeatherSettingsPageFrame" NavigationUIVisibility="Hidden" Content="{Binding Path=p_pageFrameContent, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
             </Grid>
@@ -98,30 +98,30 @@
             </Image>
             <StackPanel Orientation="Vertical" Width="170" Margin="150 -1000 0 0" Height="100" >
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                    <TextBlock x:Name="NowWeatherSituationTb" Style="{Binding WeatherSituationTbDay}" Text="Ясно" FontSize="22"/>
-                    <TextBlock x:Name="NowRealTemperatureTb" Style="{Binding WeatherSituationTbDay}" Text="21°" FontSize="22"/>
+                    <TextBlock x:Name="NowWeatherSituationTb" Style="{Binding WeatherSituationTbDay}" Text="{Binding p_opacityNow, Mode=TwoWay}" FontSize="22"/>
+                    <TextBlock x:Name="NowRealTemperatureTb" Style="{Binding WeatherSituationTbDay}" Text="{Binding p_graduceNow}" FontSize="22"/>
                 </StackPanel>
                 <StackPanel Orientation="Vertical" HorizontalAlignment="Right">
                     <TextBlock Style="{Binding WeatherSituationTbDay}" Text="Ощущается как" FontSize="22" Width="160"/>
-                    <TextBlock x:Name="NowFeelingTemperatureTb" Style="{Binding WeatherSituationTbDay}" Text="25°" FontSize="22" HorizontalAlignment="Right"/>
+                    <TextBlock x:Name="NowFeelingTemperatureTb" Style="{Binding WeatherSituationTbDay}" Text="{Binding p_feelsLikeNow}" FontSize="22" HorizontalAlignment="Right"/>
                 </StackPanel>
             </StackPanel>
 
             <StackPanel Orientation="Vertical" Width="200" Margin="150 -670 0 0" Height="50">
                 <StackPanel Orientation="Horizontal">
-                    <TextBlock x:Name="OneHourWeatherSituationTb" Style="{Binding WeatherSituationTbDay}" Text="Ясно"/>
-                    <TextBlock x:Name="OneHourRealTemperatureTb" Style="{Binding WeatherSituationTbDay}" Text="21°"/>
+                    <TextBlock x:Name="OneHourWeatherSituationTb" Style="{Binding WeatherSituationTbDay}" Text="{Binding p_opacityPlusOne}"/>
+                    <TextBlock x:Name="OneHourRealTemperatureTb" Style="{Binding WeatherSituationTbDay}" Text="{Binding p_graducePlusOneHour}"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Style="{Binding WeatherSituationTbDay}" Text="Ощущается как"/>
-                    <TextBlock x:Name="OneHourFeelingTemperatureTb" Style="{Binding WeatherSituationTbDay}" Text="25°"/>
+                    <TextBlock x:Name="OneHourFeelingTemperatureTb" Style="{Binding WeatherSituationTbDay}" Text="{Binding p_feelsLikeOne}"/>
                 </StackPanel>
             </StackPanel>
 
             <StackPanel Orientation="Vertical" Width="200"  Margin="150 -420 0 0" Height="50">
                 <StackPanel Orientation="Horizontal">
-                    <TextBlock x:Name="TwoHourWeatherSituationTb" Style="{Binding WeatherSituationTbDay}" Text="Ясно"/>
-                    <TextBlock x:Name="TwoHourRealTemperatureTb" Style="{Binding WeatherSituationTbDay}" Text="21°"/>
+                    <TextBlock x:Name="TwoHourWeatherSituationTb" Style="{Binding WeatherSituationTbDay}" Text="{Binding p_opacityPlusTwo}"/>
+                    <TextBlock x:Name="TwoHourRealTemperatureTb" Style="{Binding WeatherSituationTbDay}" Text="{Binding p_graducePlusTwoHour}"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Style="{Binding WeatherSituationTbDay}" Text="Ощущается как"/>
@@ -131,17 +131,17 @@
 
             <StackPanel Orientation="Vertical" Width="200" Margin="150 -180 0 0" Height="50">
                 <StackPanel Orientation="Horizontal">
-                    <TextBlock x:Name="ThreeHourWeatherSituationTb" Style="{Binding WeatherSituationTbDay}" Text="Ясно"/>
-                    <TextBlock x:Name="ThreeHourRealTemperatureTb" Style="{Binding WeatherSituationTbDay}" Text="21°"/>
+                    <TextBlock x:Name="ThreeHourWeatherSituationTb" Style="{Binding WeatherSituationTbDay}" Text="{Binding p_opacityPlusThree}"/>
+                    <TextBlock x:Name="ThreeHourRealTemperatureTb" Style="{Binding WeatherSituationTbDay}" Text="{Binding p_graducePlusThreeHour}"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Style="{Binding WeatherSituationTbDay}" Text="Ощущается как"/>
                     <TextBlock x:Name="ThreeHourFeelingTemperatureTb" Style="{Binding WeatherSituationTbDay}" Text="25°"/>
                 </StackPanel>
             </StackPanel>
-            <TextBlock x:Name="OneHourTb" Style="{Binding WeatherSituationTbDay}" Text="16:00" Width="40" Height="20" Margin="-260 -680 0 0"/>
-            <TextBlock x:Name="TwoHourTb" Style="{Binding WeatherSituationTbDay}" Text="17:00" Width="40" Height="20" Margin="-260 -430 0 0"/>
-            <TextBlock x:Name="ThreeHourTb" Style="{Binding WeatherSituationTbDay}" Text="18:00" Width="40" Height="20" Margin="-260 -180 0 0"/>
+            <TextBlock x:Name="OneHourTb" Style="{Binding WeatherSituationTbDay}" Text="{Binding p_hourPlusOne}" Width="40" Height="20" Margin="-260 -680 0 0"/>
+            <TextBlock x:Name="TwoHourTb" Style="{Binding WeatherSituationTbDay}" Text="{Binding p_hourPlusTwo}" Width="40" Height="20" Margin="-260 -430 0 0"/>
+            <TextBlock x:Name="ThreeHourTb" Style="{Binding WeatherSituationTbDay}" Text="{Binding p_hourPlusThree}" Width="40" Height="20" Margin="-260 -180 0 0"/>
         </StackPanel>
 
     </Grid>

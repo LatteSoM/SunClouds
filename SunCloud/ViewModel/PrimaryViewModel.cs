@@ -17,6 +17,10 @@ using System.Windows.Media;
 using SunCloud.Model;
 using SunCloud.ViewModel.HelpTool;
 using SunCloud.View.Pages;
+using SunCloud.ViewModel;
+using WeatherLib;
+using HourlyForecastModel;
+using ApiModels;
 
 namespace SunCloud.ViewModel
 {
@@ -137,10 +141,247 @@ namespace SunCloud.ViewModel
             }
         }
 
-        public PrimaryWindow primaryWindow = Application.Current.Windows.OfType<PrimaryWindow>().FirstOrDefault();
+        private string _opacityNow;
 
-        public PrimaryViewModel() 
+        public string p_opacityNow
         {
+            get { return _opacityNow; }
+            set
+            {
+                _opacityNow = value;
+                onPropertyChanged();
+            }
+        }
+
+        private string _opacityPlusOne;
+
+        public string p_opacityPlusOne
+        {
+            get { return _opacityPlusOne; }
+            set
+            {
+                _opacityPlusOne = value;
+                onPropertyChanged();
+            }
+        }
+
+        private string _opacityPlusTwo;
+
+        public string p_opacityPlusTwo
+        {
+            get { return _opacityPlusTwo; }
+            set
+            {
+                _opacityPlusTwo = value;
+                onPropertyChanged();
+            }
+        }
+
+        private string _opacityPlusThree;
+
+        public string p_opacityPlusThree
+        {
+            get { return _opacityPlusThree; }
+            set
+            {
+                _opacityPlusThree = value;
+                onPropertyChanged();
+            }
+        }
+
+
+        private string _graduceNow;
+
+        public string p_graduceNow
+        {
+            get { return _graduceNow; }
+            set
+            {
+                _graduceNow = value;
+                onPropertyChanged();
+            }
+        }
+
+        private string _graducePlusOneHour;
+
+        public string p_graducePlusOneHour
+        {
+            get { return _graducePlusOneHour; }
+            set
+            {
+                _graducePlusOneHour = value;
+                onPropertyChanged();
+            }
+        }
+
+        private string _graducePlusTwoHour;
+
+        public string p_graducePlusTwoHour
+        {
+            get { return _graducePlusTwoHour; }
+            set
+            {
+                _graducePlusTwoHour = value;
+                onPropertyChanged();
+            }
+        }
+
+        private string _graducePlusThreeHour;
+
+        public string p_graducePlusThreeHour
+        {
+            get { return _graducePlusThreeHour; }
+            set
+            {
+                _graducePlusThreeHour = value;
+                onPropertyChanged();
+            }
+        }
+
+        private string _feelsLikeNow;
+
+        public string p_feelsLikeNow
+        {
+            get { return _feelsLikeNow; }
+            set
+            {
+                _feelsLikeNow = value;
+                onPropertyChanged();
+            }
+        }
+
+        private string _hourPlusOne;
+
+        public string p_hourPlusOne
+        {
+            get { return _hourPlusOne; }
+            set
+            {
+                _hourPlusOne = value;
+                onPropertyChanged();
+            }
+        }
+
+        private string _hourPlusTwo;
+
+        public string p_hourPlusTwo
+        {
+            get { return _hourPlusTwo; }
+            set
+            {
+                _hourPlusTwo = value;
+                onPropertyChanged();
+            }
+        }
+
+        private string _hourPlusThree;
+
+        public string p_hourPlusThree
+        {
+            get { return _hourPlusThree; }
+            set
+            {
+                _hourPlusThree = value;
+                onPropertyChanged();
+            }
+        }
+
+        private string _feelsLikeOne;
+
+        public string p_feelsLikeOne
+        {
+            get { return _feelsLikeOne; }
+            set
+            {
+                _feelsLikeOne = value;
+                onPropertyChanged();
+            }
+        }
+
+        private string _feelsLikeTwo;
+
+        public string p_feelsLikeTwo
+        {
+            get { return _feelsLikeTwo; }
+            set
+            {
+                _feelsLikeTwo = value;
+                onPropertyChanged();
+            }
+        }
+
+        private string _feelsLikeThree;
+
+        public string p_feelsLikeThree
+        {
+            get { return _feelsLikeThree; }
+            set
+            {
+                _feelsLikeThree = value;
+                onPropertyChanged();
+            }
+        }
+        private string _citySet;
+
+
+        public string p_citySet
+        {
+            get { return _citySet; }
+            set
+            {
+                _citySet = value;
+                onPropertyChanged();
+            }
+        }
+
+        public PrimaryWindow primaryWindow = Application.Current.Windows.OfType<PrimaryWindow>().FirstOrDefault();
+        public HourlyForecastObject hourlyForecast;
+        public CurrentWeather currentWeather;
+
+        public PrimaryViewModel(HourlyForecastObject _hourlyForecast, CurrentWeather _currentWeather) 
+        {
+            p_opacityNow = "ясно";
+            p_graduceNow = "21";
+            p_feelsLikeNow = "25";
+            p_hourPlusOne = "16:00";
+            p_hourPlusTwo = "17:00";
+            p_hourPlusThree = "18:00";
+
+            p_opacityPlusTwo = "пассмурно";
+            p_opacityPlusThree = "тучно";
+            p_opacityPlusOne = "хуй знает";
+
+            p_graducePlusTwoHour = "21";
+            p_graducePlusOneHour = "21";
+            p_graducePlusThreeHour = "21";
+
+            p_feelsLikeOne = "25";
+            p_feelsLikeTwo = "25";
+            p_feelsLikeThree = "25";
+
+            //DateTime dt =  ;
+            //card.TimeTbl.Text = dt.ToString("H:mm");
+            p_hourPlusOne = new DateTime(1970, 1, 1, 0, 0, 0, 0).AddSeconds(_hourlyForecast.hourly[1].dt).ToLocalTime().ToString("H:mm");
+            p_hourPlusTwo = new DateTime(1970, 1, 1, 0, 0, 0, 0).AddSeconds(_hourlyForecast.hourly[2].dt).ToLocalTime().ToString("H:mm");
+            p_hourPlusThree = new DateTime(1970, 1, 1, 0, 0, 0, 0).AddSeconds(_hourlyForecast.hourly[3].dt).ToLocalTime().ToString("H:mm");
+
+            p_graduceNow = Math.Round(_currentWeather.main.temp - 273.15).ToString() + "°";
+            p_opacityNow = _hourlyForecast.hourly[0].weather[0].description;
+            p_feelsLikeNow = Math.Round(_currentWeather.main.feels_like - 273.15).ToString() + "°";
+
+            p_opacityPlusOne = _hourlyForecast.hourly[1].weather[0].description;
+            p_opacityPlusThree = _hourlyForecast.hourly[2].weather[0].description;
+            p_opacityPlusOne = _hourlyForecast.hourly[3].weather[0].description;
+
+            p_graducePlusTwoHour = Math.Round(_hourlyForecast.hourly[1].temp - 273.15).ToString() + "°";
+            p_graducePlusOneHour = Math.Round(_hourlyForecast.hourly[2].temp - 273.15).ToString() + "°";
+            p_graducePlusThreeHour = Math.Round(_hourlyForecast.hourly[3].temp - 273.15).ToString() + "°";
+
+            p_feelsLikeOne = Math.Round(_hourlyForecast.hourly[1].feels_like - 273.15).ToString() + "°";
+            p_feelsLikeTwo = Math.Round(_hourlyForecast.hourly[2].feels_like - 273.15).ToString() + "°";
+            p_feelsLikeThree = Math.Round(_hourlyForecast.hourly[3].feels_like - 273.15).ToString() + "°";
+
+
             dragComm = new BindableCommand(_ => DragWindow());
             closeComm = new BindableCommand(_ => CloseWindow());
             maximizeComm = new BindableCommand(_ => MaximizeWindow());
@@ -152,7 +393,10 @@ namespace SunCloud.ViewModel
             _themeService.ThemeChanged += OnThemeChanged;
             _currentTheme = _themeService.GetCurrentTheme();
             SetThemeProperties();
-            primaryWindow.WeatherSettingsPageFrame.Content = new WeatherPage();
+            primaryWindow.WeatherSettingsPageFrame.Content = new WeatherPage(_hourlyForecast, _currentWeather);
+            hourlyForecast = _hourlyForecast;
+            currentWeather = _currentWeather;
+            p_citySet = _currentWeather.name;
         }
 
         public BindableCommand dragComm { get; set; }
@@ -178,7 +422,7 @@ namespace SunCloud.ViewModel
         private void showWeatherPage()
         {
             p_pageFrameContent = null;
-            p_pageFrameContent = new WeatherPage();
+            p_pageFrameContent = new WeatherPage(hourlyForecast, currentWeather);
 
             //primaryWindow.WeatherSettingsPageFrame.Content = null;
             //primaryWindow.WeatherSettingsPageFrame.Content = new WeatherPage();

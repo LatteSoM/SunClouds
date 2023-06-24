@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6cXApqk4HHur23FfNBpnTBBmpkd+TPnXTkvrtzrmMqYQrMSDGEg0FuqKBzn7z54jlsGh3gjEBr4eOekS4k/Ymg==",
+  "dgSpecHash": "mipfUJzSqSqHcrTqP7b5Ts4BXV/F6jg643drh89O/S2ZLNOS2uQQzsIjT9b7kVX1xzZCDSQ70c+NEZF70Bx6Bg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sakura\\source\\repos\\SunClouds\\SunCloud\\SunCloud.csproj",
+  "projectFilePath": "C:\\Users\\sakura\\Source\\Repos\\SunClouds\\SunCloud\\SunCloud.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sakura\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
     "C:\\Users\\sakura\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512",

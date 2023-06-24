@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RBbvtnDKP7LyGZFyQDkEYnTypej0tlYSUN3b7jbYqYhLrH5EC7jbQXouvSSLN48oLwNi0tGL/uOcEOoXzO6gxQ==",
+  "dgSpecHash": "WeDO4sVld0Rp4hJTAmzmdGMLJ5I3kYv97NRkzOuzLGeTK2OabaCuq77B5YT1zBXFkLiQa7uX6/OpTF4/HXpXcA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sakura\\source\\repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
+  "projectFilePath": "C:\\Users\\sakura\\Source\\Repos\\SunClouds\\WeatherLib\\WeatherLib.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sakura\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
     "C:\\Users\\sakura\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512",

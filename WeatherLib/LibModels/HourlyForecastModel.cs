@@ -22,7 +22,7 @@ namespace HourlyForecastModel
         public int wind_deg { get; set; }
         public double wind_gust { get; set; }
         public List<Weather> weather { get; set; }
-        public int pop { get; set; }
+        public double pop { get; set; }
     }
 
 
